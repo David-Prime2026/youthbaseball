@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { Button } from './ui/button';
 import { Card } from './ui/card';
 import { Input } from './ui/input';
@@ -20,10 +20,6 @@ export function GameStatsTab() {
   const [selectedPlayer, setSelectedPlayer] = useState<string>('all');
   const [conflictMatches, setConflictMatches] = useState<any[]>([]);
   const [showConflictResolver, setShowConflictResolver] = useState(false);
-  const [autoMerge, setAutoMerge] = useState(() => {
-    const stored = localStorage.getItem('premier-select-auto-merge');
-    return stored === 'true';
-  });
 
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -33,44 +29,23 @@ export function GameStatsTab() {
     try {
       const text = await file.text();
       console.log('CSV file loaded, parsing...');
-      
+
       const parsedStats = parseGameStatsCSV(text, season);
       console.log('Parsed stats:', parsedStats);
-      
+
       if (!parsedStats || parsedStats.length === 0) {
         throw new Error('No valid player data found in CSV');
       }
-      
-      // Detect conflicts and matches
-      const matches = parsedStats.map(stat => {
-        const fullName = `${stat.firstName} ${stat.lastName}`.toLowerCase();
-        
-        console.log(`Checking player: ${stat.firstName} ${stat.lastName}`);
-        
-        // Try exact ID match first
-        const exactMatch = players.find(p => p.id === stat.playerId);
-        if (exactMatch) {
-          console.log(`  → Exact match found: ${exactMatch.name}`);
-          return {
-            importedData: {
-              firstName: stat.firstName,
-              lastName: stat.lastName,
-              playerNumber: stat.playerNumber,
-              gameStats: stat,
-            },
-            existingPlayer: exactMatch,
-            conflictType: 'exact_match' as const,
-          };
-        }
 
-        // Try name match
-        const nameMatch = players.find(p => 
+      const matches = parsedStats.map(stat => {
+        const fullName = (stat.firstName + ' ' + stat.lastName).toLowerCase();
+
+        const nameMatch = players.find(p =>
           p.name.toLowerCase() === fullName ||
           p.name.toLowerCase().includes(stat.lastName.toLowerCase())
         );
-        
+
         if (nameMatch) {
-          console.log(`  → Name match found: ${nameMatch.name}`);
           return {
             importedData: {
               firstName: stat.firstName,
@@ -83,8 +58,6 @@ export function GameStatsTab() {
           };
         }
 
-        // New player
-        console.log(`  → New player`);
         return {
           importedData: {
             firstName: stat.firstName,
@@ -97,13 +70,11 @@ export function GameStatsTab() {
         };
       });
 
-      console.log('Total matches created:', matches.length);
-      console.log('Conflict matches:', matches);
       setConflictMatches(matches);
       setShowConflictResolver(true);
     } catch (error) {
       console.error('Error importing CSV:', error);
-      alert(`Error importing CSV: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      alert('Error importing CSV: ' + (error instanceof Error ? error.message : 'Unknown error'));
       setShowConflictResolver(false);
     } finally {
       setImporting(false);
@@ -111,25 +82,17 @@ export function GameStatsTab() {
     }
   };
 
-  const handleResolveConflicts = (resolutions: any[]) => {
+  const handleResolveConflicts = async (resolutions: any[]) => {
     try {
       console.log('=== HANDLE RESOLVE CONFLICTS START ===');
-      console.log('Total resolutions received:', resolutions.length);
-      
+
       const newGameStats: any[] = [];
       const playersToCreate: any[] = [];
       let mergedCount = 0;
       let skippedCount = 0;
 
-      // First pass: collect all data
-      resolutions.forEach(({ match, action }, idx) => {
-        console.log(`\nProcessing resolution ${idx + 1}/${resolutions.length}:`);
-        console.log(`  Player: ${match.importedData.firstName} ${match.importedData.lastName}`);
-        console.log(`  Action: ${action}`);
-        console.log(`  Conflict Type: ${match.conflictType}`);
-        
+      resolutions.forEach(({ match, action }) => {
         if (action === 'skip') {
-          console.log('  → Skipped');
           skippedCount++;
           return;
         }
@@ -137,98 +100,66 @@ export function GameStatsTab() {
         const { importedData, existingPlayer } = match;
 
         if (action === 'merge' && existingPlayer) {
-          // Check if this exact stat already exists by checking the unique ID
-          // Each game stat should have a unique combination of player + date + stats
-          const existingStat = gameStats.find(
-            s => s.playerId === existingPlayer.id && 
-                 s.season === importedData.gameStats.season &&
-                 s.gameDate === importedData.gameStats.gameDate &&
-                 s.atBats === importedData.gameStats.atBats &&
-                 s.hits === importedData.gameStats.hits &&
-                 s.runs === importedData.gameStats.runs &&
-                 s.rbi === importedData.gameStats.rbi
-          );
-          
-          if (existingStat) {
-            console.log('  → Skipping exact duplicate stat for:', existingPlayer.name);
-            skippedCount++;
-            return;
-          }
-          
-          // Add stats to existing player with the existing player's ID
           newGameStats.push({
             ...importedData.gameStats,
             playerId: existingPlayer.id,
           });
           mergedCount++;
-          console.log(`  ✅ Merged to existing player: ${existingPlayer.name} (${existingPlayer.id})`);
         } else if (action === 'create_new') {
-          console.log('  → Will create new player profile');
           playersToCreate.push({
             playerData: {
-              name: `${importedData.firstName} ${importedData.lastName}`,
+              name: importedData.firstName + ' ' + importedData.lastName,
               dateOfBirth: '',
               ageGroup: '12U',
               positions: [],
-              throwingHand: 'Right',
-              battingHand: 'Right',
+              throwingHand: 'Right' as const,
+              battingHand: 'Right' as const,
               isAmbidextrous: false,
               photoHistory: [],
             },
             gameStats: importedData.gameStats,
+            playerNumber: importedData.playerNumber,
           });
         }
       });
 
-      console.log('\n=== BATCH CREATION ===');
-      console.log('Players to create:', playersToCreate.length);
-      
-      // Batch create all new players
+      // Batch create all new players (await the async call)
       if (playersToCreate.length > 0) {
-        const createdPlayers = addPlayers(playersToCreate.map(p => p.playerData));
-        console.log('✅ Created players:', createdPlayers);
-        
-        // Add game stats for newly created players
-        createdPlayers.forEach((player, idx) => {
-          newGameStats.push({
-            ...playersToCreate[idx].gameStats,
-            playerId: player.id,
+        const createdPlayers = await addPlayers(playersToCreate.map(p => p.playerData));
+        console.log('Created players:', createdPlayers);
+
+        if (createdPlayers && createdPlayers.length > 0) {
+          createdPlayers.forEach((player: any, idx: number) => {
+            newGameStats.push({
+              ...playersToCreate[idx].gameStats,
+              playerId: player.id,
+            });
+            console.log('Linked game stats to ' + player.name);
           });
-          console.log(`  ✅ Linked game stats to ${player.name} (${player.id})`);
-        });
+        }
       }
 
-      console.log('\n=== SUMMARY ===');
-      console.log('New game stats to add:', newGameStats.length);
-      console.log('Created count:', playersToCreate.length);
-      console.log('Merged count:', mergedCount);
-      console.log('Skipped:', skippedCount);
-      console.log('Game stats array:', newGameStats);
-      console.log('==================\n');
-
-      // Add all game stats
+      // Add all game stats (also async now)
       if (newGameStats.length > 0) {
-        console.log('Calling addGameStats with', newGameStats.length, 'stats...');
-        addGameStats(newGameStats);
-        console.log('✅ addGameStats completed');
+        console.log('Adding ' + newGameStats.length + ' game stats...');
+        await addGameStats(newGameStats);
+        console.log('Game stats added successfully');
       }
 
       setShowConflictResolver(false);
       setConflictMatches([]);
 
       alert(
-        `Import complete!\\n\\n` +
-        `✓ ${newGameStats.length} game stats imported\\n` +
-        `✓ ${playersToCreate.length} new player${playersToCreate.length !== 1 ? 's' : ''} created\\n` +
-        `✓ ${mergedCount} stat${mergedCount !== 1 ? 's' : ''} merged\\n` +
-        (skippedCount > 0 ? `⊘ ${skippedCount} skipped (duplicates or user choice)\\n` : '') +
-        (playersToCreate.length > 0 ? `\\n⚠ Please complete profiles for new players in the Players tab` : '')
+        'Import complete!\n\n' +
+        newGameStats.length + ' game stats imported\n' +
+        playersToCreate.length + ' new players created\n' +
+        mergedCount + ' stats merged\n' +
+        (skippedCount > 0 ? skippedCount + ' skipped\n' : '')
       );
     } catch (error) {
       console.error('Error resolving conflicts:', error);
-      alert(`Error resolving conflicts: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      alert('Error resolving conflicts: ' + (error instanceof Error ? error.message : 'Unknown error'));
     } finally {
-      // ALWAYS close the modal, even if there's an error
       setShowConflictResolver(false);
       setConflictMatches([]);
     }
@@ -239,13 +170,12 @@ export function GameStatsTab() {
     setConflictMatches([]);
   };
 
-  const filteredStats = selectedPlayer === 'all' 
-    ? gameStats 
+  const filteredStats = selectedPlayer === 'all'
+    ? gameStats
     : gameStats.filter(s => s.playerId === selectedPlayer);
 
   return (
     <div className="space-y-6">
-      {/* Import Section */}
       <Card className="bg-[#0f172a] border-[#1e293b] p-6">
         <div className="flex items-center justify-between mb-4">
           <div>
@@ -294,7 +224,6 @@ export function GameStatsTab() {
         </div>
       </Card>
 
-      {/* Filter Section */}
       <Card className="bg-[#0f172a] border-[#1e293b] p-4">
         <div className="flex items-center gap-4">
           <Label className="text-[11px] text-[#94a3b8]">Filter by Player:</Label>
@@ -312,12 +241,11 @@ export function GameStatsTab() {
             </SelectContent>
           </Select>
           <span className="text-[11px] text-[#64748b]">
-            {filteredStats.length} stat{filteredStats.length !== 1 ? 's' : ''} imported
+            {filteredStats.length} stats imported
           </span>
         </div>
       </Card>
 
-      {/* Stats Display */}
       <div className="space-y-4">
         {filteredStats.length > 0 ? (
           <GameStatsDisplay
@@ -335,7 +263,6 @@ export function GameStatsTab() {
         )}
       </div>
 
-      {/* Conflict Resolver */}
       {showConflictResolver && (
         <PlayerConflictResolver
           matches={conflictMatches}
