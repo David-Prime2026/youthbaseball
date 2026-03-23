@@ -1,0 +1,2637 @@
+VM565 Youth-Baseball-Performance-Tracker:4 Running frontend commit 32ef91ca99d6b35ac0578ba9760ac3ed8662fc95
+vendor-core-83c17265f2588e9e.min.js.br:54 Statsig is not ready to log exposures, will retry in 1 seconds
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:54
+vendor-core-83c17265f2588e9e.min.js.br:54 Autosave Changes not available or already claimed by another tab undefined
+ The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+initialize @ 3871-2b089bedd40bcd41.min.js.br:7
+vendor-core-83c17265f2588e9e.min.js.br:54 [import] git: 3770c57991a4d004c7a784e099bebdb6e519bed7, stamp: 509A0B01448335C6
+(index):1  Failed to load resource: net::ERR_FAILED
+vendor-core-83c17265f2588e9e.min.js.br:54 Loaded 0 scripts (0b), 0 from cache (0b)
+vendor-core-83c17265f2588e9e.min.js.br:54 [Fullscreen] Booting... (emscripten version 4.0.21)
+vendor-core-83c17265f2588e9e.min.js.br:54 [GPU] graphicsAPI:"WebGPU", vendor:"Google Inc. (Intel)" renderer:"ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x00009A49) Direct3D11 vs_5_0 ps_5_0, D3D11)" deviceArchitecture:"gen-12lp" deviceDescription:"" webGPUDevice:"" webGPUVendor:"intel" bindings:"emdawnwebgpu"
+vendor-core-83c17265f2588e9e.min.js.br:54 [Fullscreen] Ready in 692.3ms
+vendor-core-83c17265f2588e9e.min.js.br:54 [FullscreenApp] calling setEditorTheme and setting preference light
+vendor-core-83c17265f2588e9e.min.js.br:54 [MultiplayerSession] connecting to wss://www.figma.com/api/multiplayer/GRO7enPRQJ3jfvbI96vBkC?role=editor&tracking_session_id=c6z83WnkOWCZmfM0&version=151&recentReload=0&file-load-streaming-compression&user-id=1594384215501622901&client_release=32ef91ca99d6b35ac0578ba9760ac3ed8662fc95
+vendor-core-83c17265f2588e9e.min.js.br:54 [MultiplayerSession] Joining file version 106 (initial load)
+vendor-core-83c17265f2588e9e.min.js.br:54 [FullscreenApp] calling setEditorTheme and setting preference light
+vendor-core-83c17265f2588e9e.min.js.br:54 [Local fonts] using agent
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=fdb0adee-2691-44f1-8a45-f5a4231adf20&dd-evp-encoding=deflate&batch_time=1774039698347&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=2c33e7b7-dfdb-4981-921e-f52867dba0e2&dd-evp-encoding=deflate&batch_time=1774039698316&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+vendor-core-83c17265f2588e9e.min.js.br:54 [Fullscreen] loadtime=3.49s maxmem=15040340
+vendor-core-83c17265f2588e9e.min.js.br:54 [devtools] Initialized LS
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=6f4859d9-d566-4d51-974a-01911ffff22d&dd-evp-encoding=deflate&batch_time=1774039699759&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=bdb4d3f4-d794-4ff4-930b-052b28614587&dd-evp-encoding=deflate&batch_time=1774039699797&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=68d65aa2-64b3-42b7-bf27-70d68eed8297&dd-evp-encoding=deflate&batch_time=1774039699755&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=81a60fd7-9a06-450a-815a-0f9c3b9b3633&dd-evp-encoding=deflate&batch_time=1774039699757&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+ [devtools] Initialized LS
+/api/make/GRO7enPRQJ3jfvbI96vBkC/cached_preview_urls?source_code_hash=fbb0c5cfeb357387c0cf72dcde394f1162e35196:1  Failed to load resource: the server responded with a status of 404 ()
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=c5bf315a-284f-41bd-9875-fc81102b4676&dd-evp-encoding=deflate&batch_time=1774039700592&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=897cd59b-ca7e-4add-b1e8-c16eb65d5f7c&dd-evp-encoding=deflate&batch_time=1774039700577&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=8acf9ef3-a1b5-47c1-a15f-d1838bf8ff45&dd-evp-encoding=deflate&batch_time=1774039700580&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=9716e584-35bb-4cfd-9d98-818a56d8715d&dd-evp-encoding=deflate&batch_time=1774039730593&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+ CSV file loaded, parsing...
+ === CSV PARSER START ===
+ Total lines in CSV: 15
+ Header found at line: 1
+ ✅ Line 2: Processing Owen Nye (#11)
+ ✅ Line 3: Processing Justin Ryan (#12)
+ ✅ Line 4: Processing James Brooks (#15)
+ ✅ Line 5: Processing Lucas Figueroa (#22)
+ ✅ Line 6: Processing Bryce Wright (#24)
+ ✅ Line 7: Processing Andrew Shearon (#25)
+ ✅ Line 8: Processing Townsen Mussman (#27)
+ ✅ Line 9: Processing Aiden Zunno (#64)
+ ✅ Line 10: Processing Ryan Emert (#67)
+ ✅ Line 11: Processing Holden Manifold (#N/A)
+ Line 12: Skipped (totals/glossary/empty)
+ Line 13: Skipped - missing name (firstName: "", lastName: "")
+ Line 14: Skipped (totals/glossary/empty)
+ === CSV PARSER COMPLETE ===
+ ✅ Successfully parsed 10 players:
+   1. Owen Nye (#11) - playerId: owen-nye
+   2. Justin Ryan (#12) - playerId: justin-ryan
+   3. James Brooks (#15) - playerId: james-brooks
+   4. Lucas Figueroa (#22) - playerId: lucas-figueroa
+   5. Bryce Wright (#24) - playerId: bryce-wright
+   6. Andrew Shearon (#25) - playerId: andrew-shearon
+   7. Townsen Mussman (#27) - playerId: townsen-mussman
+   8. Aiden Zunno (#64) - playerId: aiden-zunno
+   9. Ryan Emert (#67) - playerId: ryan-emert
+   10. Holden Manifold (#N/A) - playerId: holden-manifold
+ =========================
+
+ Parsed stats: Array(10)
+ Checking player: Owen Nye
+   → New player
+ Checking player: Justin Ryan
+   → New player
+ Checking player: James Brooks
+   → New player
+ Checking player: Lucas Figueroa
+   → New player
+ Checking player: Bryce Wright
+   → New player
+ Checking player: Andrew Shearon
+   → New player
+ Checking player: Townsen Mussman
+   → New player
+ Checking player: Aiden Zunno
+   → New player
+ Checking player: Ryan Emert
+   → New player
+ Checking player: Holden Manifold
+   → New player
+ Total matches created: 10
+ Conflict matches: Array(10)
+ === PLAYER CONFLICT RESOLVER - CONFIRM ===
+ Total matches to resolve: 10
+   1. Owen Nye - Action: create_new
+   2. Justin Ryan - Action: create_new
+   3. James Brooks - Action: create_new
+   4. Lucas Figueroa - Action: create_new
+   5. Bryce Wright - Action: create_new
+   6. Andrew Shearon - Action: create_new
+   7. Townsen Mussman - Action: create_new
+   8. Aiden Zunno - Action: create_new
+   9. Ryan Emert - Action: create_new
+   10. Holden Manifold - Action: create_new
+ ==========================================
+
+ === HANDLE RESOLVE CONFLICTS START ===
+ Total resolutions received: 10
+ 
+Processing resolution 1/10:
+   Player: Owen Nye
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 2/10:
+   Player: Justin Ryan
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 3/10:
+   Player: James Brooks
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 4/10:
+   Player: Lucas Figueroa
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 5/10:
+   Player: Bryce Wright
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 6/10:
+   Player: Andrew Shearon
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 7/10:
+   Player: Townsen Mussman
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 8/10:
+   Player: Aiden Zunno
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 9/10:
+   Player: Ryan Emert
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 10/10:
+   Player: Holden Manifold
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+=== BATCH CREATION ===
+ Players to create: 10
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Created players: Array(10)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Linked game stats to Owen Nye (player-1774039744589-0.023801564271660247)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Linked game stats to Justin Ryan (player-1774039744590-0.26744715285611464)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Linked game stats to James Brooks (player-1774039744591-0.5029881273146833)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Linked game stats to Lucas Figueroa (player-1774039744592-0.9330003576115504)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Linked game stats to Bryce Wright (player-1774039744593-0.9421970232528885)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Linked game stats to Andrew Shearon (player-1774039744594-0.7551238839569994)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Linked game stats to Townsen Mussman (player-1774039744595-0.3763272102322931)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Linked game stats to Aiden Zunno (player-1774039744596-0.8804014037505504)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Linked game stats to Ryan Emert (player-1774039744597-0.3016000930676286)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Linked game stats to Holden Manifold (player-1774039744598-0.4344583770485383)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+=== SUMMARY ===
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 New game stats to add: 10
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Created count: 10
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Merged count: 0
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Skipped: 0
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Game stats array: Array(10)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ==================
+
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Calling addGameStats with 10 stats...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ addGameStats completed
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 Warning: Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at @radix-ui_react-select.js?v=5cbe2396:4299:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-select.js?v=5cbe2396:3843:59
+    at chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at @radix-ui_react-select.js?v=5cbe2396:2719:22
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/SelectPortal
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at SelectContent (select.tsx:58:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at CollectionProvider (chunk-SDOIQWMI.js?v=c3f06ea9:30:13)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at Popper (@radix-ui_react-select.js?v=5cbe2396:2449:11)
+    at Select (@radix-ui_react-select.js?v=5cbe2396:3631:5)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Select (select.tsx:14:6)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/form
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Card (card.tsx:5:17)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at DataEntryForm (DataEntryForm.tsx:36:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at BattingTab (BattingTab.tsx:16:66)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Presence (@radix-ui_react-tabs.js?v=2912ddb8:245:11)
+    at @radix-ui_react-tabs.js?v=2912ddb8:495:13
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at TabsContent (tabs.tsx:54:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at Provider (chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at @radix-ui_react-tabs.js?v=2912ddb8:373:7
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at Tabs (tabs.tsx:9:3)
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (fginspector:3:55)
+    at App (App.tsx:15:37)
+    at o5 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:4420)
+    at N (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:572:13259)
+    at n3 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:626:13925)
+    at bH (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:643:10316)
+    at e4abe191-774e-4bbe-a90d-4dc560b84c39-v2-figmaiframepreview.figma.site/div
+    at aa (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:117:14058)
+    at Tz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:235156)
+    at ym (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:633:246294)
+    at iO (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:102:146212)
+    at ho (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:436:8433)
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 The above error occurred in the <span> component:
+
+    at span
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4495:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:50:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4388:7
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectItem (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/src/app/components/ui/select.tsx:200:3)
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4299:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:3843:59
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:2719:22
+    at SelectPortal
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectContent (https://app-67vizqjz2f6mrd
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 The above error occurred in the <span> component:
+
+    at span
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4495:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:50:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4388:7
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectItem (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/src/app/components/ui/select.tsx:200:3)
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4299:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:3843:59
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:2719:22
+    at SelectPortal
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectContent (https://app-67vizqjz2f6mrd
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 The above error occurred in the <span> component:
+
+    at span
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4495:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:50:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4388:7
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectItem (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/src/app/components/ui/select.tsx:200:3)
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4299:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:3843:59
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:2719:22
+    at SelectPortal
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectContent (https://app-67vizqjz2f6mrd
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 The above error occurred in the <span> component:
+
+    at span
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4495:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:50:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4388:7
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectItem (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/src/app/components/ui/select.tsx:200:3)
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4299:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:3843:59
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:2719:22
+    at SelectPortal
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectContent (https://app-67vizqjz2f6mrd
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 The above error occurred in the <span> component:
+
+    at span
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4495:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:50:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4388:7
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectItem (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/src/app/components/ui/select.tsx:200:3)
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4299:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:3843:59
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:2719:22
+    at SelectPortal
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectContent (https://app-67vizqjz2f6mrd
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 The above error occurred in the <span> component:
+
+    at span
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4495:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:50:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4388:7
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectItem (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/src/app/components/ui/select.tsx:200:3)
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4299:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:3843:59
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:2719:22
+    at SelectPortal
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectContent (https://app-67vizqjz2f6mrd
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 The above error occurred in the <span> component:
+
+    at span
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4495:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:50:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4388:7
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectItem (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/src/app/components/ui/select.tsx:200:3)
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4299:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:3843:59
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:2719:22
+    at SelectPortal
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectContent (https://app-67vizqjz2f6mrd
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 The above error occurred in the <span> component:
+
+    at span
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4495:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:50:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4388:7
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectItem (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/src/app/components/ui/select.tsx:200:3)
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4299:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:3843:59
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:2719:22
+    at SelectPortal
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectContent (https://app-67vizqjz2f6mrd
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 The above error occurred in the <span> component:
+
+    at span
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4495:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:50:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4388:7
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectItem (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/src/app/components/ui/select.tsx:200:3)
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4299:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:3843:59
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:2719:22
+    at SelectPortal
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectContent (https://app-67vizqjz2f6mrd
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17 The above error occurred in the <span> component:
+
+    at span
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4495:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:50:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4388:7
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectItem (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/src/app/components/ui/select.tsx:200:3)
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:4299:13
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at div
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-SDOIQWMI.js?v=c3f06ea9:39:15
+    at Provider (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-R75Q76IO.js?v=c3f06ea9:12:15)
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:3843:59
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:63:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-HB4CYL2K.js?v=c3f06ea9:44:11
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/chunk-27MLYL4D.js?v=c3f06ea9:29:13
+    at https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/node_modules/.vite/deps/@radix-ui_react-select.js?v=5cbe2396:2719:22
+    at SelectPortal
+    at https://www.figma.com/webpack-artifacts/assets/code_components_preview_iframe-1f2144f4d81fada2.min.js.br:290:12522
+    at FGCmp (https://app-67vizqjz2f6mrd2xzr7mybaldl5nnzt35xqviwm5kg7rftpaibsa.makeproxy-c.figma.site/@id/fginspector:3:55)
+    at SelectContent (https://app-67vizqjz2f6mrd
+r @ code_components_preview_iframe-1f2144f4d81fada2.min.js.br:17
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166810)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+    at S$ (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160557)
+    at Sz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160323)
+    at SI (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:156868)

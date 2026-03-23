@@ -1,0 +1,569 @@
+ Running frontend commit 32ef91ca99d6b35ac0578ba9760ac3ed8662fc95
+vendor-b38af67a2c6fcb29.min.js.br:6 Datadog Browser SDK: No storage available for session. We will not send any data.
+A @ vendor-b38af67a2c6fcb29.min.js.br:6
+vendor-core-83c17265f2588e9e.min.js.br:54 Statsig is not ready to log exposures, will retry in 1 seconds
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:54
+vendor-core-83c17265f2588e9e.min.js.br:54 Autosave Changes not available or already claimed by another tab undefined
+(index):1  Failed to load resource: net::ERR_FAILED
+vendor-core-83c17265f2588e9e.min.js.br:54 [import] git: 3770c57991a4d004c7a784e099bebdb6e519bed7, stamp: 509A0B01448335C6
+ The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+initialize @ 3871-2b089bedd40bcd41.min.js.br:7
+vendor-core-83c17265f2588e9e.min.js.br:54 [Local fonts] using agent
+vendor-core-83c17265f2588e9e.min.js.br:54 Loaded 34 scripts (5979266b), 34 from cache (5979266b)
+vendor-core-83c17265f2588e9e.min.js.br:54 [Fullscreen] Booting... (emscripten version 4.0.21)
+vendor-core-83c17265f2588e9e.min.js.br:54 [GPU] graphicsAPI:"WebGPU", vendor:"Google Inc. (Intel)" renderer:"ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x00009A49) Direct3D11 vs_5_0 ps_5_0, D3D11)" deviceArchitecture:"gen-12lp" deviceDescription:"" webGPUDevice:"" webGPUVendor:"intel" bindings:"emdawnwebgpu"
+vendor-core-83c17265f2588e9e.min.js.br:54 [Fullscreen] Ready in 530.6ms
+vendor-core-83c17265f2588e9e.min.js.br:54 [FullscreenApp] calling setEditorTheme and setting preference light
+vendor-core-83c17265f2588e9e.min.js.br:54 [MultiplayerSession] connecting to wss://www.figma.com/api/multiplayer/GRO7enPRQJ3jfvbI96vBkC?role=editor&tracking_session_id=DEc5fZd5IFyi9jpr&version=151&recentReload=0&file-load-streaming-compression&user-id=1594384215501622901&client_release=32ef91ca99d6b35ac0578ba9760ac3ed8662fc95
+vendor-core-83c17265f2588e9e.min.js.br:54 [MultiplayerSession] Joining file version 106 (initial load)
+vendor-core-83c17265f2588e9e.min.js.br:54 [FullscreenApp] calling setEditorTheme and setting preference light
+vendor-core-83c17265f2588e9e.min.js.br:54 [Fullscreen] loadtime=3.23s maxmem=22411492
+vendor-core-83c17265f2588e9e.min.js.br:54 [devtools] Initialized LS
+vendor-core-83c17265f2588e9e.min.js.br:54 [devtools] Initialized LS
+ CSV file loaded, parsing...
+ === CSV PARSER START ===
+ Total lines in CSV: 15
+ Header found at line: 1
+ Game Date column index: -1 (not found - will use sequential dates)
+ ✅ Line 2: Processing Owen Nye (#11)
+ ✅ Line 3: Processing Justin Ryan (#12)
+ ✅ Line 4: Processing James Brooks (#15)
+ ✅ Line 5: Processing Lucas Figueroa (#22)
+ ✅ Line 6: Processing Bryce Wright (#24)
+ ✅ Line 7: Processing Andrew Shearon (#25)
+ ✅ Line 8: Processing Townsen Mussman (#27)
+ ✅ Line 9: Processing Aiden Zunno (#64)
+ ✅ Line 10: Processing Ryan Emert (#67)
+ ✅ Line 11: Processing Holden Manifold (#N/A)
+ Line 12: Skipped (totals/glossary/empty)
+ Line 13: Skipped - missing name (firstName: "", lastName: "")
+ Line 14: Skipped (totals/glossary/empty)
+ === CSV PARSER COMPLETE ===
+ ✅ Successfully parsed 10 players:
+   1. Owen Nye (#11) - playerId: owen-nye
+   2. Justin Ryan (#12) - playerId: justin-ryan
+   3. James Brooks (#15) - playerId: james-brooks
+   4. Lucas Figueroa (#22) - playerId: lucas-figueroa
+   5. Bryce Wright (#24) - playerId: bryce-wright
+   6. Andrew Shearon (#25) - playerId: andrew-shearon
+   7. Townsen Mussman (#27) - playerId: townsen-mussman
+   8. Aiden Zunno (#64) - playerId: aiden-zunno
+   9. Ryan Emert (#67) - playerId: ryan-emert
+   10. Holden Manifold (#N/A) - playerId: holden-manifold
+ =========================
+
+ Parsed stats: Array(10)
+ Checking player: Owen Nye
+   → New player
+ Checking player: Justin Ryan
+   → New player
+ Checking player: James Brooks
+   → New player
+ Checking player: Lucas Figueroa
+   → New player
+ Checking player: Bryce Wright
+   → New player
+ Checking player: Andrew Shearon
+   → New player
+ Checking player: Townsen Mussman
+   → New player
+ Checking player: Aiden Zunno
+   → New player
+ Checking player: Ryan Emert
+   → New player
+ Checking player: Holden Manifold
+   → New player
+ Total matches created: 10
+ Conflict matches: Array(10)
+ === PLAYER CONFLICT RESOLVER - CONFIRM ===
+ Total matches to resolve: 10
+   1. Owen Nye - Action: create_new
+   2. Justin Ryan - Action: create_new
+   3. James Brooks - Action: create_new
+   4. Lucas Figueroa - Action: create_new
+   5. Bryce Wright - Action: create_new
+   6. Andrew Shearon - Action: create_new
+   7. Townsen Mussman - Action: create_new
+   8. Aiden Zunno - Action: create_new
+   9. Ryan Emert - Action: create_new
+   10. Holden Manifold - Action: create_new
+ ==========================================
+
+ === HANDLE RESOLVE CONFLICTS START ===
+ Total resolutions received: 10
+ 
+Processing resolution 1/10:
+   Player: Owen Nye
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 2/10:
+   Player: Justin Ryan
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 3/10:
+   Player: James Brooks
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 4/10:
+   Player: Lucas Figueroa
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 5/10:
+   Player: Bryce Wright
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 6/10:
+   Player: Andrew Shearon
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 7/10:
+   Player: Townsen Mussman
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 8/10:
+   Player: Aiden Zunno
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 9/10:
+   Player: Ryan Emert
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+Processing resolution 10/10:
+   Player: Holden Manifold
+   Action: create_new
+   Conflict Type: new_player
+   → Will create new player profile
+ 
+=== BATCH CREATION ===
+ Players to create: 10
+ ✅ Created players: Array(10)
+   ✅ Linked game stats to Owen Nye (player-1774058024815-0.06570334562598423)
+   ✅ Linked game stats to Justin Ryan (player-1774058024816-0.45307928774409467)
+   ✅ Linked game stats to James Brooks (player-1774058024817-0.008890703836855529)
+   ✅ Linked game stats to Lucas Figueroa (player-1774058024818-0.8255371782060513)
+   ✅ Linked game stats to Bryce Wright (player-1774058024819-0.6420854138269794)
+   ✅ Linked game stats to Andrew Shearon (player-1774058024820-0.048001973309161894)
+   ✅ Linked game stats to Townsen Mussman (player-1774058024821-0.6293842374382076)
+   ✅ Linked game stats to Aiden Zunno (player-1774058024822-0.1719903231388673)
+   ✅ Linked game stats to Ryan Emert (player-1774058024823-0.5596523152547153)
+   ✅ Linked game stats to Holden Manifold (player-1774058024824-0.6391102965590599)
+ 
+=== SUMMARY ===
+ New game stats to add: 10
+ Created count: 10
+ Merged count: 0
+ Skipped: 0
+ Game stats array: Array(10)
+ ==================
+
+ Calling addGameStats with 10 stats...
+ ✅ addGameStats completed
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at HTMLUnknownElement.y (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54006)
+    at Object.ik (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:54331)
+    at iz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:25:55284)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166948)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+ The above error occurred in the <span> component:
+
+    at span
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6353:28
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:300:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:291:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3295:22
+    at l (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3235:22)
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6276:22
+    at te (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:7075:14)
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a1
+r @ code_components_prev…1fada2.min.js.br:17
+ The above error occurred in the <span> component:
+
+    at span
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6353:28
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:300:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:291:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3295:22
+    at l (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3235:22)
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6276:22
+    at te (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:7075:14)
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a1
+r @ code_components_prev…1fada2.min.js.br:17
+ The above error occurred in the <span> component:
+
+    at span
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6353:28
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:300:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:291:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3295:22
+    at l (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3235:22)
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6276:22
+    at te (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:7075:14)
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a1
+r @ code_components_prev…1fada2.min.js.br:17
+ The above error occurred in the <span> component:
+
+    at span
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6353:28
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:300:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:291:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3295:22
+    at l (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3235:22)
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6276:22
+    at te (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:7075:14)
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a1
+r @ code_components_prev…1fada2.min.js.br:17
+ The above error occurred in the <span> component:
+
+    at span
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6353:28
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:300:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:291:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3295:22
+    at l (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3235:22)
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6276:22
+    at te (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:7075:14)
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a1
+r @ code_components_prev…1fada2.min.js.br:17
+ The above error occurred in the <span> component:
+
+    at span
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6353:28
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:300:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:291:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3295:22
+    at l (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3235:22)
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6276:22
+    at te (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:7075:14)
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a1
+r @ code_components_prev…1fada2.min.js.br:17
+ The above error occurred in the <span> component:
+
+    at span
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6353:28
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:300:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:291:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3295:22
+    at l (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3235:22)
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6276:22
+    at te (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:7075:14)
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a1
+r @ code_components_prev…1fada2.min.js.br:17
+ The above error occurred in the <span> component:
+
+    at span
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6353:28
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:300:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:291:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3295:22
+    at l (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3235:22)
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6276:22
+    at te (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:7075:14)
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a1
+r @ code_components_prev…1fada2.min.js.br:17
+ The above error occurred in the <span> component:
+
+    at span
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6353:28
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:300:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:291:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3295:22
+    at l (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3235:22)
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6276:22
+    at te (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:7075:14)
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a1
+r @ code_components_prev…1fada2.min.js.br:17
+ The above error occurred in the <span> component:
+
+    at span
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6353:28
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3171:22
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:300:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:291:21
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3295:22
+    at l (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:3235:22)
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:6276:22
+    at te (https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a19af0ee7/index.js?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MKSkVjh3LBvBemvpeUQZBVUdrfwaRCi-v~fdIcWW9leDAnj9jEvHSaGO1Zps~s7wiJqNWmoiO9fE6G4GvsaVm~tB4U9k8lkgdIdZwFNUtwDsWBOiE~ZXGFxOYLgVoeTb5DS98kAK8GKnzJH9hIX3iWQatRpiikWE~YOUDUcO3bhTqMQ~hcr7SsMMpX9QYFrbbgdpnF5z8uxUiEatEKpRwMqY638dSioEkySNoIk4wXUqfDvuruMXUMyQoUPQ8HldkDngE9E6nHzX9PDqiLOA~fQJTYajAvuE6BkAyjwR4j5CQ7Pt9oWkXyr6CLzdpfRkuj11-S6MCZbJ1NUSfX4KcQ__:7075:14)
+    at div
+    at https://s3-figma-foundry-cached-previews-production-sig.figma.com/3cd034b2-c822-40c6-bbec-389a1
+r @ code_components_prev…1fada2.min.js.br:17
+code_components_prev…1fada2.min.js.br:37 Uncaught Error: Objects are not valid as a React child (found: object with keys {name, dateOfBirth, ageGroup, positions, throwingHand, battingHand, isAmbidextrous, photoHistory, id, createdAt, updatedAt}). If you meant to render a collection of children, use an array instead.
+    at fP (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:48697)
+    at b (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:56044)
+    at _t (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:107972)
+    at _E (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:113341)
+    at _4 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:128002)
+    at ep (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:166810)
+    at SX (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160942)
+    at S$ (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160557)
+    at Sz (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:160323)
+    at SI (code_components_preview_iframe-1f2144f4d81fada2.min.js.br:37:156868)

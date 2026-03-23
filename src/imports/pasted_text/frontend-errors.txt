@@ -1,0 +1,220 @@
+VM286 Youth-Baseball-Performance-Tracker:4 Running frontend commit 32ef91ca99d6b35ac0578ba9760ac3ed8662fc95
+vendor-core-83c17265f2588e9e.min.js.br:54 Statsig is not ready to log exposures, will retry in 1 seconds
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:54
+vendor-core-83c17265f2588e9e.min.js.br:54 [import] git: 3770c57991a4d004c7a784e099bebdb6e519bed7, stamp: 509A0B01448335C6
+vendor-core-83c17265f2588e9e.min.js.br:54 Loaded 34 scripts (5979266b), 34 from cache (5979266b)
+(index):1  Failed to load resource: net::ERR_FAILED
+vendor-core-83c17265f2588e9e.min.js.br:54 Autosave Changes not available or already claimed by another tab undefined
+3871-2b089bedd40bcd41.min.js.br:7 The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+initialize @ 3871-2b089bedd40bcd41.min.js.br:7
+vendor-core-83c17265f2588e9e.min.js.br:54 [Local fonts] using agent
+vendor-core-83c17265f2588e9e.min.js.br:54 [Fullscreen] Booting... (emscripten version 4.0.21)
+vendor-core-83c17265f2588e9e.min.js.br:54 [GPU] graphicsAPI:"WebGPU", vendor:"Google Inc. (Intel)" renderer:"ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x00009A49) Direct3D11 vs_5_0 ps_5_0, D3D11)" deviceArchitecture:"gen-12lp" deviceDescription:"" webGPUDevice:"" webGPUVendor:"intel" bindings:"emdawnwebgpu"
+vendor-core-83c17265f2588e9e.min.js.br:54 [Fullscreen] Ready in 931.7ms
+vendor-core-83c17265f2588e9e.min.js.br:54 [FullscreenApp] calling setEditorTheme and setting preference light
+vendor-core-83c17265f2588e9e.min.js.br:54 [MultiplayerSession] connecting to wss://www.figma.com/api/multiplayer/GRO7enPRQJ3jfvbI96vBkC?role=editor&tracking_session_id=uXi2zAMsT5It5zB5&version=151&recentReload=0&file-load-streaming-compression&user-id=1594384215501622901&client_release=32ef91ca99d6b35ac0578ba9760ac3ed8662fc95
+vendor-core-83c17265f2588e9e.min.js.br:54 [MultiplayerSession] Joining file version 106 (initial load)
+vendor-core-83c17265f2588e9e.min.js.br:54 [FullscreenApp] calling setEditorTheme and setting preference light
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=e500e5f8-542f-4621-883d-c7fb3fd330e8&dd-evp-encoding=deflate&batch_time=1774039161329&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=883798b9-d017-4ab2-a811-65583eba9bf2&dd-evp-encoding=deflate&batch_time=1774039161331&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=7bf69a87-2775-455b-8e7c-339d3472d401&dd-evp-encoding=deflate&batch_time=1774039161328&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=35aaacb3-40d7-4b7a-aa09-f22bf68aaee7&dd-evp-encoding=deflate&batch_time=1774039161386&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=6da826e9-ed06-47d2-bcaf-ce68f9dacf30&dd-evp-encoding=deflate&batch_time=1774039161396&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+vendor-core-83c17265f2588e9e.min.js.br:54 [Fullscreen] loadtime=4.63s maxmem=16744168
+vendor-core-83c17265f2588e9e.min.js.br:54 [devtools] Initialized LS
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=0d1e6054-3bd3-44eb-b138-5d2a321c810a&dd-evp-encoding=deflate&batch_time=1774039162876&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+vendor-core-83c17265f2588e9e.min.js.br:54 [devtools] Initialized LS
+browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=021e1f66-3061-4c05-ac65-47541f2c4eb1&dd-evp-encoding=deflate&batch_time=1774039163806&_dd.api=fetch:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 CSV file loaded, parsing...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 === CSV PARSER START ===
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Total lines in CSV: 15
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Header found at line: 1
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Line 2: Processing Owen Nye (#11)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Line 3: Processing Justin Ryan (#12)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Line 4: Processing James Brooks (#15)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Line 5: Processing Lucas Figueroa (#22)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Line 6: Processing Bryce Wright (#24)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Line 7: Processing Andrew Shearon (#25)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Line 8: Processing Townsen Mussman (#27)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Line 9: Processing Aiden Zunno (#64)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Line 10: Processing Ryan Emert (#67)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Line 11: Processing Holden Manifold (#N/A)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Line 12: Skipped (totals/glossary/empty)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Line 13: Skipped - missing name (firstName: "", lastName: "")
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Line 14: Skipped (totals/glossary/empty)
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 === CSV PARSER COMPLETE ===
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ Successfully parsed 10 players:
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   1. Owen Nye (#11) - playerId: owen-nye
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   2. Justin Ryan (#12) - playerId: justin-ryan
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   3. James Brooks (#15) - playerId: james-brooks
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   4. Lucas Figueroa (#22) - playerId: lucas-figueroa
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   5. Bryce Wright (#24) - playerId: bryce-wright
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   6. Andrew Shearon (#25) - playerId: andrew-shearon
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   7. Townsen Mussman (#27) - playerId: townsen-mussman
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   8. Aiden Zunno (#64) - playerId: aiden-zunno
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   9. Ryan Emert (#67) - playerId: ryan-emert
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   10. Holden Manifold (#N/A) - playerId: holden-manifold
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 =========================
+
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Parsed stats: (10) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Checking player: Owen Nye
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → New player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Checking player: Justin Ryan
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → New player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Checking player: James Brooks
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → New player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Checking player: Lucas Figueroa
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → New player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Checking player: Bryce Wright
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → New player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Checking player: Andrew Shearon
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → New player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Checking player: Townsen Mussman
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → New player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Checking player: Aiden Zunno
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → New player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Checking player: Ryan Emert
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → New player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Checking player: Holden Manifold
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → New player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Total matches created: 10
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Conflict matches: (10) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 === PLAYER CONFLICT RESOLVER - CONFIRM ===
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Total matches to resolve: 10
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   1. Owen Nye - Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   2. Justin Ryan - Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   3. James Brooks - Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   4. Lucas Figueroa - Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   5. Bryce Wright - Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   6. Andrew Shearon - Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   7. Townsen Mussman - Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   8. Aiden Zunno - Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   9. Ryan Emert - Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   10. Holden Manifold - Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ==========================================
+
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 === HANDLE RESOLVE CONFLICTS START ===
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Total resolutions received: 10
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+Processing resolution 1/10:
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Player: Owen Nye
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Conflict Type: new_player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → Creating new player profile...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Created new player: {name: 'Owen Nye', dateOfBirth: '', ageGroup: '12U', positions: Array(0), throwingHand: 'Right', …}
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Added game stats for new player: player-1774039190634-0.221326199170503
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+Processing resolution 2/10:
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Player: Justin Ryan
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Conflict Type: new_player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → Creating new player profile...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Created new player: {name: 'Justin Ryan', dateOfBirth: '', ageGroup: '12U', positions: Array(0), throwingHand: 'Right', …}
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Added game stats for new player: player-1774039190636-0.6212108380644563
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+Processing resolution 3/10:
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Player: James Brooks
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Conflict Type: new_player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → Creating new player profile...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Created new player: {name: 'James Brooks', dateOfBirth: '', ageGroup: '12U', positions: Array(0), throwingHand: 'Right', …}
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Added game stats for new player: player-1774039190638-0.035600497035215284
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+Processing resolution 4/10:
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Player: Lucas Figueroa
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Conflict Type: new_player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → Creating new player profile...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Created new player: {name: 'Lucas Figueroa', dateOfBirth: '', ageGroup: '12U', positions: Array(0), throwingHand: 'Right', …}
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Added game stats for new player: player-1774039190640-0.5485559523364874
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+Processing resolution 5/10:
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Player: Bryce Wright
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Conflict Type: new_player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → Creating new player profile...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Created new player: {name: 'Bryce Wright', dateOfBirth: '', ageGroup: '12U', positions: Array(0), throwingHand: 'Right', …}
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Added game stats for new player: player-1774039190641-0.7140274887913972
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+Processing resolution 6/10:
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Player: Andrew Shearon
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Conflict Type: new_player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → Creating new player profile...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Created new player: {name: 'Andrew Shearon', dateOfBirth: '', ageGroup: '12U', positions: Array(0), throwingHand: 'Right', …}
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Added game stats for new player: player-1774039190644-0.6641326543296443
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+Processing resolution 7/10:
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Player: Townsen Mussman
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Conflict Type: new_player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → Creating new player profile...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Created new player: {name: 'Townsen Mussman', dateOfBirth: '', ageGroup: '12U', positions: Array(0), throwingHand: 'Right', …}
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Added game stats for new player: player-1774039190646-0.8253785520580831
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+Processing resolution 8/10:
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Player: Aiden Zunno
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Conflict Type: new_player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → Creating new player profile...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Created new player: {name: 'Aiden Zunno', dateOfBirth: '', ageGroup: '12U', positions: Array(0), throwingHand: 'Right', …}
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Added game stats for new player: player-1774039190648-0.30097527977053407
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+Processing resolution 9/10:
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Player: Ryan Emert
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Conflict Type: new_player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → Creating new player profile...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Created new player: {name: 'Ryan Emert', dateOfBirth: '', ageGroup: '12U', positions: Array(0), throwingHand: 'Right', …}
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Added game stats for new player: player-1774039190650-0.6824109131373122
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+Processing resolution 10/10:
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Player: Holden Manifold
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Action: create_new
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   Conflict Type: new_player
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   → Creating new player profile...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Created new player: {name: 'Holden Manifold', dateOfBirth: '', ageGroup: '12U', positions: Array(0), throwingHand: 'Right', …}
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90   ✅ Added game stats for new player: player-1774039190651-0.4282752666608587
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 
+=== SUMMARY ===
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 New game stats to add: 10
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Created count: 10
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Merged count: 0
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Skipped: 0
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Game stats array: (10) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ==================
+
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 Calling addGameStats with 10 stats...
+code_components_preview_iframe-1f2144f4d81fada2.min.js.br:90 ✅ addGameStats completed
+vendor-core-83c17265f2588e9e.min.js.br:54  POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=5d915f2c-c4cc-4a7b-83fb-4712065f9b7f&dd-evp-encoding=deflate&batch_time=1774039193807&_dd.api=fetch net::ERR_NAME_NOT_RESOLVED
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:54
+h @ vendor-b38af67a2c6fcb29.min.js.br:3
+o @ vendor-b38af67a2c6fcb29.min.js.br:3
+T @ vendor-b38af67a2c6fcb29.min.js.br:6
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:6
+b @ vendor-b38af67a2c6fcb29.min.js.br:6
+y @ vendor-b38af67a2c6fcb29.min.js.br:6
+send @ vendor-b38af67a2c6fcb29.min.js.br:6
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:6
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:6
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:6
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:3
+h @ vendor-b38af67a2c6fcb29.min.js.br:3
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:3
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+vendor-core-83c17265f2588e9e.min.js.br:54  POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub3f6fa9c94d5ff85890f30fdc10b09c61&dd-evp-origin-version=6.30.1&dd-evp-origin=browser&dd-request-id=9bf21fdc-e6ee-4c5e-9fd8-688668812f4b&dd-evp-encoding=deflate&batch_time=1774039224527&_dd.api=fetch net::ERR_NAME_NOT_RESOLVED
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:54
+h @ vendor-b38af67a2c6fcb29.min.js.br:3
+o @ vendor-b38af67a2c6fcb29.min.js.br:3
+T @ vendor-b38af67a2c6fcb29.min.js.br:6
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:6
+b @ vendor-b38af67a2c6fcb29.min.js.br:6
+y @ vendor-b38af67a2c6fcb29.min.js.br:6
+send @ vendor-b38af67a2c6fcb29.min.js.br:6
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:6
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:6
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:6
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:3
+h @ vendor-b38af67a2c6fcb29.min.js.br:3
+(anonymous) @ vendor-b38af67a2c6fcb29.min.js.br:3
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
