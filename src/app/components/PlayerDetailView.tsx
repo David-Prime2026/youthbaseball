@@ -9,6 +9,7 @@ import { usePerformanceData } from '../hooks/usePerformanceData';
 import { PerformanceEntry } from '../types/performance';
 import { supabase } from '../../supabaseClient';
 import { CoachObservations } from './CoachObservations';
+import { TrainingPlan } from './TrainingPlan';
 import { useObservations } from '../hooks/useObservations';
 
 interface PlayerDetailViewProps {
@@ -180,6 +181,8 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
 
         <CoachObservations playerId={player.id} playerName={player.name} />
 
+        <TrainingPlan playerName={player.name} playerId={player.id} gameStats={playerGameStats} performanceData={allPlayerData} mode="player" />
+
         <Card className="bg-[#1e293b] border-[#334155] p-4 mb-4"><h3 className="text-[12px] font-medium text-[#38bdf8] mb-3">Training Performance Averages</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">Exit Velocity</div><div className="text-[18px] font-semibold text-[#10b981]">{exitVelocityAvg > 0 ? exitVelocityAvg.toFixed(1) : '--'}<span className="text-[10px] text-[#64748b] ml-1">mph</span></div></div>
@@ -283,5 +286,6 @@ function GameStatsView({ stats }: { stats: any[] }) {
     </div>
   );
 }
+
 
 
