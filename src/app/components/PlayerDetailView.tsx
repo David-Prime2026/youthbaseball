@@ -197,14 +197,22 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
         </Card>
 
         <Card className="bg-[#1e293b] border-[#334155] p-4 mb-4">
-          <h3 className="text-[12px] font-medium text-[#38bdf8] mb-3">Game Performance Averages</h3>
-          <div className="grid grid-cols-2 md:grid-cols-6 gap-3">
-            <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">AVG AB's</div><div className="text-[18px] font-semibold text-[#e2e8f0]">{gameAvgAtBats > 0 ? gameAvgAtBats.toFixed(1) : '--'}</div></div>
-            <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">AVG Hits</div><div className="text-[18px] font-semibold text-[#10b981]">{gameAvgHits > 0 ? gameAvgHits.toFixed(1) : '--'}</div></div>
-            <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">AVG Runs</div><div className="text-[18px] font-semibold text-[#38bdf8]">{gameAvgRuns > 0 ? gameAvgRuns.toFixed(1) : '--'}</div></div>
-            <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">AVG RBI's</div><div className="text-[18px] font-semibold text-[#f59e0b]">{gameAvgRBI > 0 ? gameAvgRBI.toFixed(1) : '--'}</div></div>
-            <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">AVG SB's</div><div className="text-[18px] font-semibold text-[#8b5cf6]">{gameAvgSteals > 0 ? gameAvgSteals.toFixed(1) : '--'}</div></div>
-            <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">Batting AVG</div><div className="text-[18px] font-semibold text-[#10b981]">{gameAvg > 0 ? gameAvg.toFixed(3) : '.000'}</div></div>
+          <h3 className="text-[12px] font-medium text-[#38bdf8] mb-3">Season Stats ({gp} games)</h3>
+          <div className="grid grid-cols-3 md:grid-cols-5 gap-3 mb-3">
+            <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">AVG</div><div className="text-[18px] font-semibold text-[#10b981]">{seasonAvg > 0 ? seasonAvg.toFixed(3) : '.000'}</div></div>
+            <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">OBP</div><div className="text-[18px] font-semibold text-[#38bdf8]">{seasonOBP > 0 ? seasonOBP.toFixed(3) : '.000'}</div></div>
+            <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">SLG</div><div className="text-[18px] font-semibold text-[#f59e0b]">{seasonSLG > 0 ? seasonSLG.toFixed(3) : '.000'}</div></div>
+            <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">OPS</div><div className="text-[18px] font-semibold text-[#8b5cf6]">{(seasonOBP + seasonSLG) > 0 ? (seasonOBP + seasonSLG).toFixed(3) : '.000'}</div></div>
+            <div className="bg-[#0f172a] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">GP</div><div className="text-[18px] font-semibold text-[#e2e8f0]">{gp}</div></div>
+          </div>
+          <div className="grid grid-cols-3 md:grid-cols-7 gap-2">
+            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">H</div><div className="text-[16px] font-semibold text-[#e2e8f0]">{totalHits}</div></div>
+            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">R</div><div className="text-[16px] font-semibold text-[#e2e8f0]">{totalRuns}</div></div>
+            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">RBI</div><div className="text-[16px] font-semibold text-[#e2e8f0]">{totalRBI}</div></div>
+            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">2B</div><div className="text-[16px] font-semibold text-[#e2e8f0]">{total2B}</div></div>
+            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">HR</div><div className="text-[16px] font-semibold text-[#e2e8f0]">{totalHR}</div></div>
+            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">SB</div><div className="text-[16px] font-semibold text-[#e2e8f0]">{totalSB}</div></div>
+            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">K</div><div className="text-[16px] font-semibold text-[#ef4444]">{totalK}</div></div>
           </div>
         </Card>
 
@@ -290,6 +298,8 @@ function GameStatsView({ stats }: { stats: any[] }) {
     </div>
   );
 }
+
+
 
 
 
