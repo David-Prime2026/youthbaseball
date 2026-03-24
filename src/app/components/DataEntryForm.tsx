@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Label } from './ui/label';
@@ -140,7 +140,7 @@ export function DataEntryForm({
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent className="bg-[#1e293b] border-[#334155]">
-                    {players.map((player, idx) => (
+                    {players.filter(p => p && p.trim() !== "").map((player, idx) => (
                       <SelectItem key={`${player}-${idx}`} value={player} className="text-[#e2e8f0]">
                         {player}
                       </SelectItem>
