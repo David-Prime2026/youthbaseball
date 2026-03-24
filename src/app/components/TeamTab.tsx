@@ -140,7 +140,7 @@ export function TeamTab() {
 
       <TrainingPlan mode="team" gameStats={gameStats} performanceData={[...battingData.entries, ...pitchingData.entries, ...runningData.entries]} />
 
-      
+      <div className="flex gap-3 items-center">
         <Label className="text-[11px] text-[#94a3b8]">View:</Label>
         <div className="flex gap-2">
           <Button onClick={() => setViewMode('team')} size="sm" className={viewMode === 'team' ? 'bg-[#38bdf8] text-[#0a0f1a]' : 'bg-[#1e293b] text-[#94a3b8]'}><Users className="h-3 w-3 mr-1" />Team</Button>
@@ -305,5 +305,6 @@ export function TeamTab() {
     </div>
   );
 }
+
 
 
