@@ -1,4 +1,4 @@
-﻿import { useState } from 'react';
+﻿import { useState, useEffect, useRef } from 'react';
 import { Card } from './ui/card';
 import { Input } from './ui/input';
 import { Label } from './ui/label';
@@ -14,6 +14,25 @@ export function GameStatsTab() {
   const { players } = usePlayerData();
   const [season, setSeason] = useState('Spring 2026');
   const [importing, setImporting] = useState(false);
+  const gcWidgetRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://widgets.gc.com/static/js/sdk.v1.js';
+    script.async = true;
+    script.onload = () => {
+      if ((window as any).GC && gcWidgetRef.current) {
+        (window as any).GC.team.schedule.init({
+          target: '#gc-schedule-widget',
+          widgetId: '654efb9f-4f13-4cb1-b4f8-6a7766a1447f',
+          maxVerticalGamesVisible: 4,
+        });
+      }
+    };
+    document.body.appendChild(script);
+    return () => { try { document.body.removeChild(script); } catch(e) {} };
+  }, []);
+
   const [importResult, setImportResult] = useState<{ success: boolean; message: string } | null>(null);
 
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -121,6 +140,12 @@ export function GameStatsTab() {
         </div>
         <p className="text-[10px] text-[#64748b] mt-4 text-center">View player stats in individual player profiles or the Coaching dashboard</p>
       </Card>
+          <Card className="bg-[#0f172a] border-[#1e293b] p-6">
+        <h3 className="text-[14px] font-medium text-[#38bdf8] mb-4">Live Schedule & Scores</h3>
+        <p className="text-[11px] text-[#94a3b8] mb-4">Powered by GameChanger</p>
+        <div ref={gcWidgetRef} id="gc-schedule-widget" className="bg-white rounded-lg overflow-hidden min-h-[200px]"></div>
+      </Card>
     </div>
   );
 }
+

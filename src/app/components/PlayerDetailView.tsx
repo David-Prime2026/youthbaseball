@@ -27,6 +27,9 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
 
   const [aiInsights, setAiInsights] = useState<any[]>([]);
   const [aiLoading, setAiLoading] = useState(false);
+  const [aiCollapsed, setAiCollapsed] = useState(false);
+  const [aiCollapsed, setAiCollapsed] = useState(false);
+  const [aiCollapsed, setAiCollapsed] = useState(false);
   const [aiGenerated, setAiGenerated] = useState(false);
 
   const playerGameStats = gameStats.filter(s => s.playerId === player.id);
@@ -77,6 +80,7 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
     } finally {
       setAiLoading(false);
       setAiGenerated(true);
+      setAiCollapsed(false);
     }
   };
 
@@ -167,8 +171,8 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
               {aiLoading ? (<><Loader2 className="h-4 w-4 mr-2 animate-spin" />Analyzing...</>) : aiGenerated ? 'Refresh' : 'Generate Insights'}
             </Button>
           </div>
-          {aiLoading && (<div className="text-center py-4"><Loader2 className="h-6 w-6 text-[#38bdf8] mx-auto animate-spin" /><p className="text-[11px] text-[#94a3b8] mt-2">Analyzing {player.name}'s data...</p></div>)}
-          {aiGenerated && !aiLoading && (
+          {aiCollapsed ? null : aiLoading && (<div className="text-center py-4"><Loader2 className="h-6 w-6 text-[#38bdf8] mx-auto animate-spin" /><p className="text-[11px] text-[#94a3b8] mt-2">Analyzing {player.name}'s data...</p></div>)}
+          {aiCollapsed ? null : aiGenerated && !aiLoading && (
             <div className="space-y-2">
               {aiInsights.map((insight, i) => {
                 const style = insightColors[insight.type] || insightColors.neutral;
@@ -176,7 +180,7 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
               })}
             </div>
           )}
-          {!aiGenerated && !aiLoading && (<p className="text-[11px] text-[#64748b] text-center py-2">Click "Generate Insights" for personalized AI analysis</p>)}
+          {aiCollapsed ? null : !aiGenerated && !aiLoading && (<p className="text-[11px] text-[#64748b] text-center py-2">Click "Generate Insights" for personalized AI analysis</p>)}
         </Card>
 
         <CoachObservations playerId={player.id} playerName={player.name} />
@@ -286,6 +290,9 @@ function GameStatsView({ stats }: { stats: any[] }) {
     </div>
   );
 }
+
+
+
 
 
 
