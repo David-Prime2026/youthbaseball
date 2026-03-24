@@ -209,7 +209,7 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
           <Card className="bg-[#1e293b] border-[#334155] p-3"><div className="text-[10px] text-[#64748b] mb-1">Batting</div><div className="text-[18px] font-semibold text-[#10b981]">{battingData.length}</div></Card>
           <Card className="bg-[#1e293b] border-[#334155] p-3"><div className="text-[10px] text-[#64748b] mb-1">Pitching</div><div className="text-[18px] font-semibold text-[#f59e0b]">{pitchingData.length}</div></Card>
           <Card className="bg-[#1e293b] border-[#334155] p-3"><div className="text-[10px] text-[#64748b] mb-1">Running</div><div className="text-[18px] font-semibold text-[#8b5cf6]">{runningData.length}</div></Card>
-          <Card className="bg-[#1e293b] border-[#334155] p-3"><div className="text-[10px] text-[#64748b] mb-1">Game Stats</div><div className="text-[18px] font-semibold text-[#06b6d4]">{playerGameStats.length}</div></Card>
+          <Card className="bg-[#1e293b] border-[#334155] p-3"><div className="text-[10px] text-[#64748b] mb-1">Game Stats</div><div className="text-[18px] font-semibold text-[#06b6d4]">{playerGameStats.reduce((sum: number, s: any) => sum + (s.gamesPlayed || 0), 0)}</div></Card>
         </div>
 
         <Tabs defaultValue="batting" className="w-full">
@@ -275,7 +275,7 @@ function GameStatsView({ stats }: { stats: any[] }) {
             </table>
           </div>
           <div className="mt-4 grid grid-cols-2 md:grid-cols-5 gap-2">
-            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">Games</div><div className="text-[14px] font-semibold text-[#e2e8f0]">{seasonStats.length}</div></div>
+            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">Games</div><div className="text-[14px] font-semibold text-[#e2e8f0]">{seasonStats.reduce((sum: number, s: any) => sum + (s.gamesPlayed || 0), 0)}</div></div>
             <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">Total H</div><div className="text-[14px] font-semibold text-[#e2e8f0]">{seasonStats.reduce((sum: number, s: any) => sum + (s.hits || 0), 0)}</div></div>
             <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">Total R</div><div className="text-[14px] font-semibold text-[#e2e8f0]">{seasonStats.reduce((sum: number, s: any) => sum + (s.runs || 0), 0)}</div></div>
             <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">Total RBI</div><div className="text-[14px] font-semibold text-[#e2e8f0]">{seasonStats.reduce((sum: number, s: any) => sum + (s.rbi || 0), 0)}</div></div>
@@ -286,6 +286,8 @@ function GameStatsView({ stats }: { stats: any[] }) {
     </div>
   );
 }
+
+
 
 
 
