@@ -56,11 +56,11 @@ export default function App() {
       return entries.filter(e => e.playerId === selectedPlayerId);
     };
     switch (activeTab) {
-      case 'batting': return { entries: filterByPlayer(battingEntries), gameStats, playerName };
-      case 'pitching': return { entries: filterByPlayer(pitchingEntries), gameStats, playerName };
-      case 'running': return { entries: filterByPlayer(runningEntries), gameStats, playerName };
-      case 'strength': return { entries: filterByPlayer(strengthEntries), gameStats, playerName };
-      case 'exercise': return { entries: filterByPlayer(exerciseEntries), gameStats, playerName };
+      case 'batting': return { entries: filterByPlayer(battingEntries), gameStats: filterByPlayer(gameStats as any[]) as any, playerName };
+      case 'pitching': return { entries: filterByPlayer(pitchingEntries), gameStats: filterByPlayer(gameStats as any[]) as any, playerName };
+      case 'running': return { entries: filterByPlayer(runningEntries), gameStats: [], playerName };
+      case 'strength': return { entries: filterByPlayer(strengthEntries), gameStats: [], playerName };
+      case 'exercise': return { entries: filterByPlayer(exerciseEntries), gameStats: [], playerName };
       case 'gamestats': return { entries: [], gameStats, playerName };
       default: return null;
     }
@@ -139,6 +139,7 @@ export default function App() {
           {aiInsightsData && (
             <div className="mb-6">
               <AIInsights
+                key={activeTab + "-" + selectedPlayerId}
                 performanceEntries={aiInsightsData.entries}
                 gameStats={aiInsightsData.gameStats}
                 playerName={aiInsightsData.playerName}
@@ -160,5 +161,7 @@ export default function App() {
     </div>
   );
 }
+
+
 
 
