@@ -3,7 +3,7 @@ import { Player } from '../types/player';
 import { Card } from './ui/card';
 import { Button } from './ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
-import { X, Calendar, Users, TrendingUp, Camera, Edit2, Mail, Sparkles, Loader2 } from 'lucide-react';
+import { X, Calendar, Users, TrendingUp, Camera, Edit2, Mail, Sparkles, Loader2, ChevronDown, ChevronUp } from 'lucide-react';
 import { useGameStats } from '../hooks/useGameStats';
 import { usePerformanceData } from '../hooks/usePerformanceData';
 import { PerformanceEntry } from '../types/performance';
@@ -25,10 +25,9 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
   const runningPerf = usePerformanceData('running');
   const strengthPerf = usePerformanceData('strength');
 
+  const { observations: playerObservations } = useObservations(player.id);
   const [aiInsights, setAiInsights] = useState<any[]>([]);
   const [aiLoading, setAiLoading] = useState(false);
-  const [aiCollapsed, setAiCollapsed] = useState(false);
-  const [aiCollapsed, setAiCollapsed] = useState(false);
   const [aiCollapsed, setAiCollapsed] = useState(false);
   const [aiGenerated, setAiGenerated] = useState(false);
 
@@ -68,6 +67,7 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
           gameStats: playerGameStats.slice(0, 15),
           playerName: player.name,
           category: 'Player Profile',
+          observations: playerObservations.map(o => ({ category: o.category, content: o.content, rating: o.rating, date: o.date })),
         },
       });
       if (error) throw error;
@@ -166,7 +166,7 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
 
         <Card className="bg-gradient-to-br from-[#38bdf8]/10 to-[#0ea5e9]/5 border-[#38bdf8]/30 p-4 mb-4">
           <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center gap-2"><Sparkles className="h-5 w-5 text-[#38bdf8]" /><h3 className="text-[13px] font-semibold text-[#38bdf8]">AI Player Insights</h3></div>
+            <button onClick={() => aiGenerated && setAiCollapsed(!aiCollapsed)} className="flex items-center gap-2"><Sparkles className="h-5 w-5 text-[#38bdf8]" /><h3 className="text-[13px] font-semibold text-[#38bdf8]">AI Player Insights</h3>{aiGenerated && (aiCollapsed ? <ChevronDown className="h-4 w-4 text-[#64748b]" /> : <ChevronUp className="h-4 w-4 text-[#64748b]" />)}</button>
             <Button onClick={generateAIInsights} disabled={aiLoading} size="sm" className="bg-[#38bdf8] text-[#0a0f1a] hover:bg-[#0ea5e9]">
               {aiLoading ? (<><Loader2 className="h-4 w-4 mr-2 animate-spin" />Analyzing...</>) : aiGenerated ? 'Refresh' : 'Generate Insights'}
             </Button>
@@ -290,6 +290,9 @@ function GameStatsView({ stats }: { stats: any[] }) {
     </div>
   );
 }
+
+
+
 
 
 
