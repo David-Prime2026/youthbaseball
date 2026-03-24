@@ -90,7 +90,15 @@ export function useGameStats() {
     // Create missing players and update jersey numbers
     for (const s of stats) {
       const fullName = (s.firstName + ' ' + s.lastName).toLowerCase();
-      if (!playerMap.has(fullName)) {
+      const lastNameLower = s.lastName.toLowerCase();
+      // Try exact match first, then last name match
+      let matched = playerMap.has(fullName);
+      if (!matched) {
+        for (const [name, info] of playerMap.entries()) {
+          if (name.split(' ').pop() === lastNameLower) { playerMap.set(fullName, info); matched = true; break; }
+        }
+      }
+      if (!matched) {
         const { data: created } = await supabase
           .from('players')
           .insert([{ name: s.firstName + ' ' + s.lastName, age_group: '12U', jersey_number: s.playerNumber || null }])
@@ -111,6 +119,7 @@ export function useGameStats() {
     // For each stat, check if player+season exists — update or insert
     for (const s of stats) {
       const fullName = (s.firstName + ' ' + s.lastName).toLowerCase();
+      const lastNameLower = s.lastName.toLowerCase();
       const playerInfo = playerMap.get(fullName);
       if (!playerInfo) continue;
 
@@ -214,3 +223,4 @@ export function useGameStats() {
     refreshGameStats: fetchGameStats,
   };
 }
+

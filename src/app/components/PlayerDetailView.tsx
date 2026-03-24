@@ -140,7 +140,7 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
               {player.photo ? (<img src={player.photo} alt={player.name} className="w-full h-full object-cover" />) : (<Camera className="h-10 w-10 text-[#64748b]" />)}
             </div>
             <div className="flex-1">
-              <h2 className="text-[20px] font-semibold text-[#f1f5f9] mb-2">{player.name}</h2>
+              <h2 className="text-[20px] font-semibold text-[#f1f5f9] mb-2">{(() => { const stat = playerGameStats[0]; const num = stat?.playerNumber; return num && num !== "N/A" ? "#" + num + " " + player.name : player.name; })()}</h2>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-[11px]">
                 <div className="bg-[#1e293b] px-3 py-2 rounded"><span className="text-[#64748b]">Age Group</span><p className="text-[#e2e8f0] font-medium">{player.ageGroup}</p></div>
                 {age && (<div className="bg-[#1e293b] px-3 py-2 rounded"><span className="text-[#64748b]">Age</span><p className="text-[#e2e8f0] font-medium">{age} years</p></div>)}
@@ -280,3 +280,4 @@ function GameStatsView({ stats }: { stats: any[] }) {
     </div>
   );
 }
+
