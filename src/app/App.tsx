@@ -33,7 +33,7 @@ export default function App() {
 
   const tabs = [
     { value: 'players', label: 'Players', icon: User, needsPlayer: false },
-    { value: 'team', label: 'Team', icon: Users, needsPlayer: false },
+    { value: 'team', label: 'Coaching', icon: Users, needsPlayer: false },
     { value: 'batting', label: 'Batting', icon: TrendingUp, needsPlayer: true },
     { value: 'pitching', label: 'Pitching', icon: TrendingUp, needsPlayer: true },
     { value: 'running', label: 'Running', icon: TrendingUp, needsPlayer: true },
@@ -160,3 +160,5 @@ export default function App() {
     </div>
   );
 }
+
+

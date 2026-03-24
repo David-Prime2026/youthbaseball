@@ -1,4 +1,4 @@
-export interface GameStats {
+﻿export interface GameStats {
   id: string;
   playerId: string;
   playerNumber: string;
@@ -48,6 +48,9 @@ export interface GameStats {
   errors?: number;
   fieldingPercentage?: number;
   
+  rawBatting?: any;
+  rawPitching?: any;
+  rawFielding?: any;
   createdAt: string;
   updatedAt: string;
 }
@@ -69,3 +72,4 @@ export const SEASONS = [
   'Summer 2027',
   'Fall 2027',
 ];
+

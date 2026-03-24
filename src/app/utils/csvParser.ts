@@ -1,68 +1,79 @@
-import { GameStats } from '../types/gameStats';
+﻿import { GameStats } from '../types/gameStats';
 
 export function parseGameStatsCSV(csvText: string, season: string): Omit<GameStats, 'id' | 'createdAt' | 'updatedAt'>[] {
   const lines = csvText.split('\n');
-  
+
   console.log('=== CSV PARSER START ===');
   console.log('Total lines in CSV:', lines.length);
-  
-  // Find the header row (row 2 in the provided format)
+
   const headerIndex = lines.findIndex(line => line.includes('Number') && line.includes('Last') && line.includes('First'));
   if (headerIndex === -1) {
     throw new Error('Invalid CSV format: Cannot find header row');
   }
 
-  console.log('Header found at line:', headerIndex);
-  const headers = lines[headerIndex].split(',').map(h => h.replace(/"/g, '').trim());
-  const playerStats: Omit<GameStats, 'id' | 'createdAt' | 'updatedAt'>[] = [];
+  const headers = parseCSVLine(lines[headerIndex]);
+  console.log('Header found at line:', headerIndex, '- Total columns:', headers.length);
 
-  // Check if there's a Game Date column
-  const gameDateIndex = headers.findIndex(h => h.toLowerCase().includes('date') || h.toLowerCase() === 'game');
-  console.log('Game Date column index:', gameDateIndex, gameDateIndex >= 0 ? `(${headers[gameDateIndex]})` : '(not found - will use sequential dates)');
+  const playerStats: any[] = [];
 
-  // Process player rows (skip header, glossary, and totals)
   for (let i = headerIndex + 1; i < lines.length; i++) {
     const line = lines[i].trim();
-    if (!line || line.toLowerCase().includes('totals') || line.toLowerCase().includes('glossary')) {
-      console.log(`Line ${i}: Skipped (totals/glossary/empty)`);
-      continue;
-    }
+    if (!line || line.toLowerCase().includes('totals') || line.toLowerCase().includes('glossary')) continue;
 
     const values = parseCSVLine(line);
-    if (values.length < 3) {
-      console.log(`Line ${i}: Skipped - not enough values (${values.length})`);
-      continue;
-    }
+    if (values.length < 3) continue;
 
-    const playerNumber = values[0] || 'N/A'; // Allow empty player numbers
-    const lastName = values[1];
-    const firstName = values[2];
+    const playerNumber = values[0] || 'N/A';
+    const lastName = values[1]?.trim();
+    const firstName = values[2]?.trim();
 
-    if (!firstName || !lastName) {
-      console.log(`Line ${i}: Skipped - missing name (firstName: "${firstName}", lastName: "${lastName}")`);
-      continue;
-    }
-    
-    // Skip if firstName or lastName are empty strings after trimming
-    if (!firstName.trim() || !lastName.trim()) {
-      console.log(`Line ${i}: Skipped - empty name after trim (firstName: "${firstName}", lastName: "${lastName}")`);
-      continue;
-    }
+    if (!firstName || !lastName) continue;
 
-    console.log(`✅ Line ${i}: Processing ${firstName} ${lastName} (#${playerNumber})`);
+    console.log('Processing ' + firstName + ' ' + lastName + ' (#' + playerNumber + ')');
 
-    const playerId = `${firstName.toLowerCase()}-${lastName.toLowerCase()}`.replace(/\s+/g, '-');
-    const gameDate = gameDateIndex >= 0 ? values[gameDateIndex] : new Date().toISOString().split('T')[0];
+    const playerId = (firstName.toLowerCase() + '-' + lastName.toLowerCase()).replace(/\\s+/g, '-');
+    const gameDate = new Date().toISOString().split('T')[0];
 
-    const stats: Omit<GameStats, 'id' | 'createdAt' | 'updatedAt'> = {
+    // Build raw batting object (columns 3-53)
+    const rawBatting: Record<string, any> = {};
+    const battingHeaders = ['GP','PA','AB','AVG','OBP','OPS','SLG','H','1B','2B','3B','HR','RBI','R','BB','SO','K-L','HBP','SAC','SF','ROE','FC','SB','SB%','CS','PIK','QAB','QAB%','PA/BB','BB/K','C%','HHB','LD%','FB%','GB%','BABIP','BA/RISP','LOB','2OUTRBI','XBH','TB','PS','PS/PA','2S+3','2S+3%','6+','6+%','AB/HR','GIDP','GITP','CI'];
+    battingHeaders.forEach((h, idx) => {
+      const val = values[3 + idx];
+      if (val && val !== '-' && val !== 'N/A' && val !== '') {
+        const num = parseFloat(val);
+        rawBatting[h] = isNaN(num) ? val : num;
+      }
+    });
+
+    // Build raw pitching object (columns 54-143)
+    const rawPitching: Record<string, any> = {};
+    const pitchingHeaders = ['IP','GP','GS','BF','#P','W','L','SV','SVO','BS','SV%','H','R','ER','BB','SO','K-L','HBP','ERA','WHIP','LOB','BK','PIK','CS','SB','SB%','WP','BAA','MPHFB','MPHCT','MPHCB','MPHSL','MPHCH','MPHOS','P/IP','P/BF','<3%','LOO','1ST2OUT','123INN','<13','FIP','S%','FPS%','FPSO%','FPSW%','FPSH%','BB/INN','0BBINN','BBS','LOBB','LOBBS','SM%','K/BF','K/BB','WEAK%','HHB%','GO/AO','HR','LD%','FB%','GB%','BABIP','BA/RISP','FB','FBS','FBS%','FBSW%','FBSM%','CT','CTS','CTS%','CTSW%','CTSM%','CB','CBS','CBS%','CBSW%','CBSM%','SL','SLS','SLS%','SLSW%','SLSM%','CH','CHS','CHS%','CHSW%','CHSM%','OS','OSS','OSS%','OSSW%','OSSM%'];
+    pitchingHeaders.forEach((h, idx) => {
+      const val = values[54 + idx];
+      if (val && val !== '-' && val !== 'N/A' && val !== '') {
+        const num = parseFloat(val);
+        rawPitching[h] = isNaN(num) ? val : num;
+      }
+    });
+
+    // Build raw fielding object (columns 144+)
+    const rawFielding: Record<string, any> = {};
+    const fieldingHeaders = ['TC','A','PO','FPCT','E','DP','TP','INN','PB','SB','SB-ATT','CS','CS%','PIK','CI','P','C','1B','2B','3B','SS','LF','CF','RF','SF','Total'];
+    fieldingHeaders.forEach((h, idx) => {
+      const val = values[144 + idx];
+      if (val && val !== '-' && val !== 'N/A' && val !== '') {
+        const num = parseFloat(val);
+        rawFielding[h] = isNaN(num) ? val : num;
+      }
+    });
+
+    const stats: any = {
       playerId,
       playerNumber,
       lastName,
       firstName,
       season,
       gameDate,
-      
-      // Batting stats (columns 3-53)
       gamesPlayed: parseFloat(values[3]) || undefined,
       plateAppearances: parseFloat(values[4]) || undefined,
       atBats: parseFloat(values[5]) || undefined,
@@ -81,8 +92,6 @@ export function parseGameStatsCSV(csvText: string, season: string): Omit<GameSta
       strikeouts: parseFloat(values[18]) || undefined,
       stolenBases: parseFloat(values[25]) || undefined,
       caughtStealing: parseFloat(values[27]) || undefined,
-      
-      // Pitching stats (columns 54-106)
       inningsPitched: parseFloat(values[54]) || undefined,
       battersFaced: parseFloat(values[57]) || undefined,
       pitchCount: parseFloat(values[58]) || undefined,
@@ -95,47 +104,35 @@ export function parseGameStatsCSV(csvText: string, season: string): Omit<GameSta
       strikeoutsPitching: parseFloat(values[67]) || undefined,
       walksPitching: parseFloat(values[65]) || undefined,
       hitsAllowed: parseFloat(values[63]) || undefined,
-      
-      // Fielding stats (columns 135+)
-      totalChances: parseFloat(values[135]) || undefined,
-      assists: parseFloat(values[136]) || undefined,
-      putouts: parseFloat(values[137]) || undefined,
-      fieldingPercentage: parseFloat(values[138]) || undefined,
-      errors: parseFloat(values[139]) || undefined,
+      totalChances: parseFloat(values[144]) || undefined,
+      assists: parseFloat(values[145]) || undefined,
+      putouts: parseFloat(values[146]) || undefined,
+      fieldingPercentage: parseFloat(values[147]) || undefined,
+      errors: parseFloat(values[148]) || undefined,
+      // Raw JSONB data - ALL columns
+      rawBatting,
+      rawPitching,
+      rawFielding,
     };
 
     playerStats.push(stats);
   }
 
   console.log('=== CSV PARSER COMPLETE ===');
-  console.log(`✅ Successfully parsed ${playerStats.length} players:`);
-  playerStats.forEach((stat, idx) => {
-    console.log(`  ${idx + 1}. ${stat.firstName} ${stat.lastName} (#${stat.playerNumber}) - playerId: ${stat.playerId}`);
-  });
-  console.log('=========================\n');
-  
+  console.log('Parsed ' + playerStats.length + ' players');
   return playerStats;
 }
 
-// Helper to parse CSV line handling quoted values
 function parseCSVLine(line: string): string[] {
   const result: string[] = [];
   let current = '';
   let inQuotes = false;
-
   for (let i = 0; i < line.length; i++) {
     const char = line[i];
-
-    if (char === '"') {
-      inQuotes = !inQuotes;
-    } else if (char === ',' && !inQuotes) {
-      result.push(current.trim());
-      current = '';
-    } else {
-      current += char;
-    }
+    if (char === '"') { inQuotes = !inQuotes; }
+    else if (char === ',' && !inQuotes) { result.push(current.trim()); current = ''; }
+    else { current += char; }
   }
-
   result.push(current.trim());
   return result;
 }

@@ -68,7 +68,7 @@ export function TeamTab() {
       const playerBatting = battingData.entries.filter(e => e.playerId === player.id);
       const playerPitching = pitchingData.entries.filter(e => e.playerId === player.id);
       const playerRunning = runningData.entries.filter(e => e.playerId === player.id);
-      const gamesPlayed = playerGameStats.length;
+      const gamesPlayed = playerGameStats.reduce((sum, s) => sum + (s.gamesPlayed || 0), 0);
       const atBats = playerGameStats.reduce((sum, s) => sum + (s.atBats || 0), 0);
       const hits = playerGameStats.reduce((sum, s) => sum + (s.hits || 0), 0);
       const runs = playerGameStats.reduce((sum, s) => sum + (s.runs || 0), 0);
@@ -302,3 +302,4 @@ export function TeamTab() {
     </div>
   );
 }
+
