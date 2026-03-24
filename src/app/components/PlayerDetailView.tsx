@@ -32,6 +32,19 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
   const [aiGenerated, setAiGenerated] = useState(false);
 
   const playerGameStats = gameStats.filter(s => s.playerId === player.id);
+  const gp = playerGameStats.reduce((sum: number, s: any) => sum + (s.gamesPlayed || 0), 0);
+  const totalAB = playerGameStats.reduce((sum: number, s: any) => sum + (s.atBats || 0), 0);
+  const totalHitsAll = playerGameStats.reduce((sum: number, s: any) => sum + (s.hits || 0), 0);
+  const totalRuns = playerGameStats.reduce((sum: number, s: any) => sum + (s.runs || 0), 0);
+  const totalRBI = playerGameStats.reduce((sum: number, s: any) => sum + (s.rbi || 0), 0);
+  const totalSB = playerGameStats.reduce((sum: number, s: any) => sum + (s.stolenBases || 0), 0);
+  const totalBB = playerGameStats.reduce((sum: number, s: any) => sum + (s.walks || 0), 0);
+  const totalK = playerGameStats.reduce((sum: number, s: any) => sum + (s.strikeouts || 0), 0);
+  const totalHR = playerGameStats.reduce((sum: number, s: any) => sum + (s.homeRuns || 0), 0);
+  const total2B = playerGameStats.reduce((sum: number, s: any) => sum + (s.doubles || 0), 0);
+  const seasonAvg = totalAB > 0 ? totalHitsAll / totalAB : 0;
+  const seasonOBP = (totalAB + totalBB) > 0 ? (totalHitsAll + totalBB) / (totalAB + totalBB) : 0;
+  const seasonSLG = totalAB > 0 ? (totalHitsAll + total2B + (totalHR * 3)) / totalAB : 0;
   const battingData = battingPerf.entries.filter(e => e.playerId === player.id);
   const pitchingData = pitchingPerf.entries.filter(e => e.playerId === player.id);
   const runningData = runningPerf.entries.filter(e => e.playerId === player.id);
@@ -275,29 +288,134 @@ function GameStatsView({ stats }: { stats: any[] }) {
   if (stats.length === 0) {
     return (<Card className="bg-[#1e293b] border-[#334155] p-8 text-center"><Users className="h-12 w-12 text-[#334155] mx-auto mb-3" /><p className="text-[12px] text-[#64748b]">No game stats yet</p></Card>);
   }
-  const seasonGroups = stats.reduce((acc: any, stat: any) => { if (!acc[stat.season]) acc[stat.season] = []; acc[stat.season].push(stat); return acc; }, {} as Record<string, any[]>);
+  const SV = ({ label, value }: { label: string; value: any }) => { const d = value === undefined || value === null || value === "" ? "--" : String(value); return (<div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">{label}</div><div className="text-[13px] text-[#f1f5f9] font-medium">{d}</div></div>); };
   return (
     <div className="space-y-4">
-      {Object.entries(seasonGroups).map(([season, seasonStats]: [string, any]) => (
-        <Card key={season} className="bg-[#1e293b] border-[#334155] p-4">
-          <h4 className="text-[13px] font-medium text-[#38bdf8] mb-3">{season}</h4>
-          <div className="overflow-x-auto">
-            <table className="w-full text-[11px]"><thead><tr className="text-[#64748b] border-b border-[#334155]"><th className="text-left py-2 px-2">Date</th><th className="text-center py-2 px-2">AB</th><th className="text-center py-2 px-2">H</th><th className="text-center py-2 px-2">R</th><th className="text-center py-2 px-2">RBI</th><th className="text-center py-2 px-2">HR</th><th className="text-center py-2 px-2">BB</th><th className="text-center py-2 px-2">K</th><th className="text-center py-2 px-2">AVG</th></tr></thead>
-              <tbody className="text-[#e2e8f0]">{seasonStats.map((stat: any, idx: number) => (<tr key={idx} className="border-b border-[#334155]/30 hover:bg-[#1e293b]"><td className="py-2 px-2">{stat.gameDate}</td><td className="text-center py-2 px-2">{stat.atBats}</td><td className="text-center py-2 px-2">{stat.hits}</td><td className="text-center py-2 px-2">{stat.runs}</td><td className="text-center py-2 px-2">{stat.rbi}</td><td className="text-center py-2 px-2">{stat.homeRuns}</td><td className="text-center py-2 px-2">{stat.walks}</td><td className="text-center py-2 px-2">{stat.strikeouts}</td><td className="text-center py-2 px-2 font-medium text-[#10b981]">{stat.average?.toFixed(3) || '.000'}</td></tr>))}</tbody>
-            </table>
+      {stats.map((stat: any, idx: number) => {
+        const rb = stat.rawBatting || {};
+        const rp = stat.rawPitching || {};
+        const rf = stat.rawFielding || {};
+        return (
+          <div key={idx} className="space-y-4">
+            <Card className="bg-[#1e293b] border-[#334155] p-4">
+              <h4 className="text-[13px] font-medium text-[#38bdf8] mb-3">{stat.season} - Batting ({stat.gamesPlayed || 0} games)</h4>
+              <div className="grid grid-cols-3 md:grid-cols-6 gap-2 mb-3">
+                <SV label="AVG" value={stat.average ? Number(stat.average).toFixed(3) : ".000"} />
+                <SV label="OBP" value={stat.onBasePercentage ? Number(stat.onBasePercentage).toFixed(3) : ".000"} />
+                <SV label="SLG" value={stat.sluggingPercentage ? Number(stat.sluggingPercentage).toFixed(3) : ".000"} />
+                <SV label="OPS" value={stat.onBasePlusSlugging ? Number(stat.onBasePlusSlugging).toFixed(3) : ".000"} />
+                <SV label="AB" value={stat.atBats} />
+                <SV label="PA" value={stat.plateAppearances} />
+              </div>
+              <div className="grid grid-cols-4 md:grid-cols-8 gap-2">
+                <SV label="H" value={stat.hits} />
+                <SV label="R" value={stat.runs} />
+                <SV label="RBI" value={stat.rbi} />
+                <SV label="2B" value={stat.doubles} />
+                <SV label="3B" value={stat.triples} />
+                <SV label="HR" value={stat.homeRuns} />
+                <SV label="BB" value={stat.walks} />
+                <SV label="K" value={stat.strikeouts} />
+                <SV label="SB" value={stat.stolenBases} />
+                <SV label="CS" value={stat.caughtStealing} />
+              </div>
+              {Object.keys(rb).length > 0 && (
+                <details className="mt-3"><summary className="text-[10px] text-[#38bdf8] cursor-pointer hover:text-[#0ea5e9]">Advanced Batting</summary>
+                  <div className="grid grid-cols-3 md:grid-cols-6 gap-2 mt-2">
+                    {rb["QAB"] !== undefined && <SV label="QAB" value={rb["QAB"]} />}
+                    {rb["QAB%"] !== undefined && <SV label="QAB%" value={rb["QAB%"]} />}
+                    {rb["C%"] !== undefined && <SV label="Contact%" value={rb["C%"]} />}
+                    {rb["BABIP"] !== undefined && <SV label="BABIP" value={rb["BABIP"]} />}
+                    {rb["BA/RISP"] !== undefined && <SV label="BA/RISP" value={rb["BA/RISP"]} />}
+                    {rb["HHB"] !== undefined && <SV label="HHB" value={rb["HHB"]} />}
+                    {rb["LD%"] !== undefined && <SV label="LD%" value={rb["LD%"]} />}
+                    {rb["FB%"] !== undefined && <SV label="FB%" value={rb["FB%"]} />}
+                    {rb["GB%"] !== undefined && <SV label="GB%" value={rb["GB%"]} />}
+                    {rb["XBH"] !== undefined && <SV label="XBH" value={rb["XBH"]} />}
+                    {rb["TB"] !== undefined && <SV label="TB" value={rb["TB"]} />}
+                    {rb["PS"] !== undefined && <SV label="Pitches Seen" value={rb["PS"]} />}
+                    {rb["PS/PA"] !== undefined && <SV label="PS/PA" value={rb["PS/PA"]} />}
+                    {rb["BB/K"] !== undefined && <SV label="BB/K" value={rb["BB/K"]} />}
+                    {rb["LOB"] !== undefined && <SV label="LOB" value={rb["LOB"]} />}
+                    {rb["2OUTRBI"] !== undefined && <SV label="2OUT RBI" value={rb["2OUTRBI"]} />}
+                  </div>
+                </details>
+              )}
+            </Card>
+
+            {stat.inningsPitched && stat.inningsPitched > 0 && (
+              <Card className="bg-[#1e293b] border-[#334155] p-4">
+                <h4 className="text-[13px] font-medium text-[#38bdf8] mb-3">Pitching</h4>
+                <div className="grid grid-cols-3 md:grid-cols-6 gap-2 mb-3">
+                  <SV label="IP" value={stat.inningsPitched} />
+                  <SV label="ERA" value={stat.era ? Number(stat.era).toFixed(2) : "0.00"} />
+                  <SV label="WHIP" value={stat.whip ? Number(stat.whip).toFixed(2) : "0.00"} />
+                  <SV label="K" value={stat.strikeoutsPitching} />
+                  <SV label="BB" value={stat.walksPitching} />
+                  <SV label="H" value={stat.hitsAllowed} />
+                  <SV label="ER" value={stat.earnedRuns} />
+                  <SV label="W" value={stat.wins} />
+                  <SV label="L" value={stat.losses} />
+                  <SV label="BF" value={stat.battersFaced} />
+                  <SV label="#P" value={stat.pitchCount} />
+                </div>
+                {Object.keys(rp).length > 0 && (
+                  <details className="mt-3"><summary className="text-[10px] text-[#38bdf8] cursor-pointer hover:text-[#0ea5e9]">Advanced Pitching</summary>
+                    <div className="grid grid-cols-3 md:grid-cols-6 gap-2 mt-2">
+                      {rp["FIP"] !== undefined && <SV label="FIP" value={rp["FIP"]} />}
+                      {rp["S%"] !== undefined && <SV label="Strike%" value={rp["S%"]} />}
+                      {rp["FPS%"] !== undefined && <SV label="FPS%" value={rp["FPS%"]} />}
+                      {rp["BAA"] !== undefined && <SV label="BAA" value={rp["BAA"]} />}
+                      {rp["K/BF"] !== undefined && <SV label="K/BF" value={rp["K/BF"]} />}
+                      {rp["K/BB"] !== undefined && <SV label="K/BB" value={rp["K/BB"]} />}
+                      {rp["BB/INN"] !== undefined && <SV label="BB/INN" value={rp["BB/INN"]} />}
+                      {rp["P/IP"] !== undefined && <SV label="P/IP" value={rp["P/IP"]} />}
+                      {rp["SM%"] !== undefined && <SV label="SwgMiss%" value={rp["SM%"]} />}
+                      {rp["WEAK%"] !== undefined && <SV label="Weak%" value={rp["WEAK%"]} />}
+                      {rp["HHB%"] !== undefined && <SV label="HHB%" value={rp["HHB%"]} />}
+                      {rp["GO/AO"] !== undefined && <SV label="GO/AO" value={rp["GO/AO"]} />}
+                      {rp["0BBINN"] !== undefined && <SV label="0BB Inn" value={rp["0BBINN"]} />}
+                      {rp["123INN"] !== undefined && <SV label="1-2-3 Inn" value={rp["123INN"]} />}
+                    </div>
+                  </details>
+                )}
+              </Card>
+            )}
+
+            <Card className="bg-[#1e293b] border-[#334155] p-4">
+              <h4 className="text-[13px] font-medium text-[#38bdf8] mb-3">Fielding</h4>
+              <div className="grid grid-cols-3 md:grid-cols-5 gap-2 mb-3">
+                <SV label="FPCT" value={stat.fieldingPercentage ? Number(stat.fieldingPercentage).toFixed(3) : ".000"} />
+                <SV label="TC" value={stat.totalChances} />
+                <SV label="PO" value={stat.putouts} />
+                <SV label="A" value={stat.assists} />
+                <SV label="E" value={stat.errors} />
+              </div>
+              {Object.keys(rf).length > 0 && (
+                <details className="mt-3"><summary className="text-[10px] text-[#38bdf8] cursor-pointer hover:text-[#0ea5e9]">Position Innings</summary>
+                  <div className="grid grid-cols-3 md:grid-cols-6 gap-2 mt-2">
+                    {rf["P"] !== undefined && <SV label="P" value={rf["P"]} />}
+                    {rf["C"] !== undefined && <SV label="C" value={rf["C"]} />}
+                    {rf["1B"] !== undefined && <SV label="1B" value={rf["1B"]} />}
+                    {rf["2B"] !== undefined && <SV label="2B" value={rf["2B"]} />}
+                    {rf["3B"] !== undefined && <SV label="3B" value={rf["3B"]} />}
+                    {rf["SS"] !== undefined && <SV label="SS" value={rf["SS"]} />}
+                    {rf["LF"] !== undefined && <SV label="LF" value={rf["LF"]} />}
+                    {rf["CF"] !== undefined && <SV label="CF" value={rf["CF"]} />}
+                    {rf["RF"] !== undefined && <SV label="RF" value={rf["RF"]} />}
+                    {rf["Total"] !== undefined && <SV label="Total" value={rf["Total"]} />}
+                  </div>
+                </details>
+              )}
+            </Card>
           </div>
-          <div className="mt-4 grid grid-cols-2 md:grid-cols-5 gap-2">
-            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">Games</div><div className="text-[14px] font-semibold text-[#e2e8f0]">{seasonStats.reduce((sum: number, s: any) => sum + (s.gamesPlayed || 0), 0)}</div></div>
-            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">Total H</div><div className="text-[14px] font-semibold text-[#e2e8f0]">{seasonStats.reduce((sum: number, s: any) => sum + (s.hits || 0), 0)}</div></div>
-            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">Total R</div><div className="text-[14px] font-semibold text-[#e2e8f0]">{seasonStats.reduce((sum: number, s: any) => sum + (s.runs || 0), 0)}</div></div>
-            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">Total RBI</div><div className="text-[14px] font-semibold text-[#e2e8f0]">{seasonStats.reduce((sum: number, s: any) => sum + (s.rbi || 0), 0)}</div></div>
-            <div className="bg-[#0f172a] p-2 rounded text-center"><div className="text-[10px] text-[#64748b]">Season AVG</div><div className="text-[14px] font-semibold text-[#10b981]">{(() => { const h = seasonStats.reduce((sum: number, s: any) => sum + (s.hits || 0), 0); const ab = seasonStats.reduce((sum: number, s: any) => sum + (s.atBats || 0), 0); return ab > 0 ? (h / ab).toFixed(3) : '.000'; })()}</div></div>
-          </div>
-        </Card>
-      ))}
+        );
+      })}
     </div>
   );
 }
+
+
 
 
 
