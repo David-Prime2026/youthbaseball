@@ -56,11 +56,11 @@ export function parseGameStatsCSV(csvText: string, season: string): Omit<GameSta
       }
     });
 
-    // Build raw fielding object (columns 144+)
+    // Build raw fielding object (columns 148+)
     const rawFielding: Record<string, any> = {};
     const fieldingHeaders = ['TC','A','PO','FPCT','E','DP','TP','INN','PB','SB','SB-ATT','CS','CS%','PIK','CI','P','C','1B','2B','3B','SS','LF','CF','RF','SF','Total'];
     fieldingHeaders.forEach((h, idx) => {
-      const val = values[144 + idx];
+      const val = values[148 + idx];
       if (val && val !== '-' && val !== 'N/A' && val !== '') {
         const num = parseFloat(val);
         rawFielding[h] = isNaN(num) ? val : num;
@@ -104,11 +104,11 @@ export function parseGameStatsCSV(csvText: string, season: string): Omit<GameSta
       strikeoutsPitching: parseFloat(values[67]) || undefined,
       walksPitching: parseFloat(values[65]) || undefined,
       hitsAllowed: parseFloat(values[63]) || undefined,
-      totalChances: parseFloat(values[144]) || undefined,
-      assists: parseFloat(values[145]) || undefined,
-      putouts: parseFloat(values[146]) || undefined,
-      fieldingPercentage: parseFloat(values[147]) || undefined,
-      errors: parseFloat(values[148]) || undefined,
+      totalChances: parseFloat(values[148]) || undefined,
+      assists: parseFloat(values[149]) || undefined,
+      putouts: parseFloat(values[150]) || undefined,
+      fieldingPercentage: parseFloat(values[151]) || undefined,
+      errors: parseFloat(values[152]) || undefined,
       // Raw JSONB data - ALL columns
       rawBatting,
       rawPitching,
@@ -136,3 +136,4 @@ function parseCSVLine(line: string): string[] {
   result.push(current.trim());
   return result;
 }
+
