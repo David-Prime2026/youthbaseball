@@ -148,12 +148,12 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null, us
               <h1 className="text-[18px] md:text-[22px] font-bold text-[#f1f5f9] mb-1">PREMIER SELECT</h1>
               <p className="text-[11px] md:text-[12px] text-[#64748b] hidden md:block">Track baseball player KPIs, benchmarks, and goals across all performance dimensions</p>
               <button onClick={async () => { await supabase.auth.signOut(); window.location.reload(); }} className="text-[10px] text-[#64748b] hover:text-[#ef4444] mt-1 cursor-pointer">Sign Out</button>
-              <button onClick={async () => { await supabase.auth.signOut(); window.location.reload(); }} className="text-[10px] text-[#64748b] hover:text-[#ef4444] mt-1 cursor-pointer">Sign Out</button>
-              <button onClick={() => { import('../supabaseClient').then(m => m.supabase.auth.signOut().then(() => window.location.reload())); }} className="text-[10px] text-[#64748b] hover:text-[#ef4444] mt-1">Sign Out</button>
             </div>
-            <Button onClick={() => setMenuOpen(!menuOpen)} variant="outline" className="md:hidden border-[#38bdf8] text-[#38bdf8] hover:bg-[#0c4a6e]">
+            <div className="flex items-center gap-3">
+              <button onClick={async () => { await supabase.auth.signOut(); window.location.reload(); }} className="text-[11px] text-[#94a3b8] hover:text-[#ef4444] px-3 py-1 border border-[#334155] rounded hover:border-[#ef4444] transition-colors">Sign Out</button>
+              <Button onClick={() => setMenuOpen(!menuOpen)} variant="outline" className="md:hidden border-[#38bdf8] text-[#38bdf8] hover:bg-[#0c4a6e]">
               {menuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-            </Button>
+            </Button></div>
           </div>
         </div>
       </div>
@@ -222,6 +222,8 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null, us
     </div>
   );
 }
+
+
 
 
 
