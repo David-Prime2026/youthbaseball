@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+﻿import { useState, useRef } from 'react';
 import { Player, POSITIONS, AGE_GROUPS } from '../types/player';
 import { Card } from './ui/card';
 import { Button } from './ui/button';
@@ -184,6 +184,7 @@ export function PlayerProfileEditor({ player, onSave, onClose, isIncomplete }: P
                   ref={fileInputRef}
                   type="file"
                   accept="image/*"
+                  capture="environment"
                   onChange={handlePhotoUpload}
                   className="hidden"
                 />
@@ -352,9 +353,9 @@ export function PlayerProfileEditor({ player, onSave, onClose, isIncomplete }: P
         <div className="flex justify-between items-center pt-6 border-t border-[#1e293b] mt-6">
           <div className="text-[11px] text-[#94a3b8]">
             {isProfileComplete() ? (
-              <span className="text-[#10b981]">✓ Profile complete</span>
+              <span className="text-[#10b981]">âœ“ Profile complete</span>
             ) : (
-              <span className="text-[#f59e0b]">⚠ {missingFields.length} required field{missingFields.length !== 1 ? 's' : ''} missing</span>
+              <span className="text-[#f59e0b]">âš  {missingFields.length} required field{missingFields.length !== 1 ? 's' : ''} missing</span>
             )}
           </div>
           <div className="flex gap-3">
@@ -378,3 +379,4 @@ export function PlayerProfileEditor({ player, onSave, onClose, isIncomplete }: P
     </div>
   );
 }
+
