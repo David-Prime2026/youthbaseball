@@ -84,6 +84,9 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null, us
   // Parent portal view
   if (userRole === 'parent') {
     const parentPlayers = players.filter(p => parentPlayerIds.includes(p.id) || p.id === linkedPlayerId);
+    const allBatting = battingEntries;
+    const allPitching = pitchingEntries;
+    const allRunning = runningEntries;
     return (
       <div className="min-h-screen bg-[#0a0f1a] text-foreground">
         <div className="border-b border-[#1e293b] px-4 py-4" style={{ backgroundImage: 'linear-gradient(171.921deg, rgb(12, 25, 41) 0%, rgb(30, 41, 59) 100%)' }}>
@@ -160,6 +163,30 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null, us
                         </>
                       );
                     })()}
+                    <div className="mt-4 pt-4 border-t border-[#1e293b]">
+                      <h3 className="text-[13px] font-semibold text-[#38bdf8] mb-3">Training Metrics</h3>
+                      {(() => {
+                        const pb = allBatting.filter((e: any) => e.playerId === p.id);
+                        const pp = allPitching.filter((e: any) => e.playerId === p.id);
+                        const pr = allRunning.filter((e: any) => e.playerId === p.id);
+                        const getAvg = (data: any[], metric: string) => { const f = data.filter((e: any) => e.metricType === metric); const reps = f.flatMap((e: any) => e.reps).filter((r: number) => r > 0); return reps.length > 0 ? reps.reduce((a: number, b: number) => a + b, 0) / reps.length : 0; };
+                        const ev = getAvg(pb, "Exit Velocity");
+                        const bs = getAvg(pb, "Bat Speed");
+                        const pv = getAvg(pp, "Throwing Velocity");
+                        const dash = getAvg(pr, "60-Yard Dash");
+                        return (
+                          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-4">
+                            <S l="Exit Velo" v={ev > 0 ? ev.toFixed(1) + " mph" : "No data"} c="text-[#10b981]" />
+                            <S l="Bat Speed" v={bs > 0 ? bs.toFixed(1) + " mph" : "No data"} c="text-[#38bdf8]" />
+                            <S l="Pitch Velo" v={pv > 0 ? pv.toFixed(1) + " mph" : "No data"} c="text-[#f59e0b]" />
+                            <S l="60yd Dash" v={dash > 0 ? dash.toFixed(2) + "s" : "No data"} c="text-[#8b5cf6]" />
+                          </div>
+                        );
+                      })()}
+                    </div>
+                    <div className="mt-4 pt-4 border-t border-[#1e293b]">
+                      <ParentPublishedPlan playerId={p.id} />
+                    </div>
                     <div className="mt-4 pt-4 border-t border-[#1e293b]">
                       <ParentAIInsights playerId={p.id} playerName={p.name} gameStats={pgs} />
                     </div>
@@ -311,6 +338,49 @@ function ParentAIInsights({ playerId, playerName, gameStats: pgs }: { playerId: 
       )}
       {loading && <div className="text-center py-3"><p className="text-[11px] text-[#94a3b8]">Analyzing {playerName}'s performance...</p></div>}
       {!generated && !loading && <p className="text-[11px] text-[#64748b]">Click "Get Insights" for AI-powered development feedback on your player.</p>}
+    </div>
+  );
+}
+
+
+
+function ParentPublishedPlan({ playerId }: { playerId: string }) {
+  const [plan, setPlan] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
+  const [collapsed, setCollapsed] = useState(false);
+
+  useEffect(() => {
+    supabase.from('published_plans').select('*').eq('player_id', playerId).order('published_at', { ascending: false }).limit(1)
+      .then(({ data }) => { if (data && data.length > 0) setPlan(data[0]); setLoading(false); });
+  }, [playerId]);
+
+  if (loading) return <p className="text-[11px] text-[#64748b]">Loading development plan...</p>;
+  if (!plan) return <div className="text-center py-3"><p className="text-[11px] text-[#64748b]">No development plan published yet. Your coach will share one soon.</p></div>;
+
+  const items = plan.plan_data || [];
+  const colors: Record<string, any> = {
+    positive: { bg: 'bg-[#064e3b]', border: 'border-[#065f46]', text: 'text-[#6ee7b7]' },
+    warning: { bg: 'bg-[#7c2d12]', border: 'border-[#9a3412]', text: 'text-[#fdba74]' },
+    neutral: { bg: 'bg-[#1e293b]', border: 'border-[#334155]', text: 'text-[#e2e8f0]' },
+    goal: { bg: 'bg-[#1e3a8a]', border: 'border-[#1e40af]', text: 'text-[#93c5fd]' },
+  };
+
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-3">
+        <button onClick={() => setCollapsed(!collapsed)} className="flex items-center gap-2">
+          <h3 className="text-[13px] font-semibold text-[#f59e0b]">Coach Development Plan</h3>
+          <span className="text-[#64748b] text-[10px]">{collapsed ? '(show)' : '(hide)'}</span>
+        </button>
+        <span className="text-[10px] text-[#64748b]">Published {new Date(plan.published_at).toLocaleDateString()}</span>
+      </div>
+      {plan.coach_notes && <p className="text-[11px] text-[#94a3b8] mb-3 italic">Coach: {plan.coach_notes}</p>}
+      {!collapsed && (
+        <div className="space-y-2">{items.map((item: any, i: number) => {
+          const s = colors[item.type] || colors.neutral;
+          return <div key={i} className={s.bg + ' ' + s.border + ' border p-3 rounded-lg'}><h4 className={'text-[12px] font-medium ' + s.text + ' mb-1'}>{item.title}</h4><p className="text-[11px] text-[#94a3b8]">{item.description}</p></div>;
+        })}</div>
+      )}
     </div>
   );
 }

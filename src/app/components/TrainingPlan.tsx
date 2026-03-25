@@ -2,7 +2,8 @@
 import { Card } from './ui/card';
 import { Button } from './ui/button';
 import { supabase } from '../../supabaseClient';
-import { Dumbbell, Loader2, Target, ChevronDown, ChevronUp } from 'lucide-react';
+import { Dumbbell, Loader2, Target, ChevronDown, ChevronUp, Send } from 'lucide-react';
+import { useState as useStatePublish } from 'react';
 import { EXERCISE_CATEGORIES } from '../data/exerciseCategories';
 
 interface TrainingPlanProps {
@@ -71,9 +72,57 @@ export function TrainingPlan({ playerName, playerId, gameStats = [], performance
             </div>
           )}
           {loading && (<div className="text-center py-4"><Loader2 className="h-6 w-6 text-[#10b981] mx-auto animate-spin" /><p className="text-[11px] text-[#94a3b8] mt-2">Building plan...</p></div>)}
-          {generated && !loading && (<div className="space-y-2">{plan.map((item, i) => { const style = colors[item.type] || colors.neutral; return (<div key={i} className={style.bg + ' ' + style.border + ' border p-3 rounded-lg'}><h4 className={'text-[12px] font-medium ' + style.text + ' mb-1'}>{item.title}</h4><p className="text-[11px] text-[#94a3b8]">{item.description}</p></div>); })}</div>)}
+          {generated && !loading && (<><div className="space-y-2">{plan.map((item, i) => { const style = colors[item.type] || colors.neutral; return (<div key={i} className={style.bg + ' ' + style.border + ' border p-3 rounded-lg'}><h4 className={'text-[12px] font-medium ' + style.text + ' mb-1'}>{item.title}</h4><p className="text-[11px] text-[#94a3b8]">{item.description}</p></div>); })}</div>{mode === 'player' && playerId && <PublishButton playerId={playerId} planData={plan} />}</>)}
         </>
       )}
     </Card>
   );
 }
+
+
+function PublishButton({ playerId, planData }: { playerId: string; planData: any[] }) {
+  const [publishing, setPublishing] = useState(false);
+  const [published, setPublished] = useState(false);
+  const [notes, setNotes] = useState('');
+  const [showForm, setShowForm] = useState(false);
+
+  const handlePublish = async () => {
+    setPublishing(true);
+    try {
+      const { supabase } = await import('../../supabaseClient');
+      await supabase.from('published_plans').insert([{
+        player_id: playerId,
+        plan_type: 'development',
+        plan_data: planData,
+        coach_notes: notes || null,
+        published_by: 'coach',
+      }]);
+      setPublished(true);
+      setShowForm(false);
+    } catch (err) {
+      console.error('Publish error:', err);
+    } finally { setPublishing(false); }
+  };
+
+  if (published) return <div className="mt-3 flex items-center gap-2 text-[#10b981] text-[11px]"><span>Published to parent portal</span></div>;
+
+  return (
+    <div className="mt-3">
+      {!showForm ? (
+        <button onClick={() => setShowForm(true)} className="flex items-center gap-2 text-[11px] text-[#f59e0b] hover:text-[#fbbf24] border border-[#f59e0b]/30 px-3 py-1.5 rounded hover:bg-[#f59e0b]/10 transition-colors">
+          <span>Publish to Parent Portal</span>
+        </button>
+      ) : (
+        <div className="bg-[#0f172a] p-3 rounded border border-[#334155] space-y-2">
+          <input type="text" value={notes} onChange={(e) => setNotes(e.target.value)} placeholder="Optional coach note to parent..." className="w-full bg-[#1e293b] border border-[#334155] rounded px-3 py-2 text-[11px] text-[#e2e8f0] outline-none" />
+          <div className="flex gap-2">
+            <button onClick={handlePublish} disabled={publishing} className="flex-1 bg-[#f59e0b] text-[#0a0f1a] text-[11px] font-medium py-2 rounded hover:bg-[#d97706] disabled:opacity-50">{publishing ? 'Publishing...' : 'Publish Plan'}</button>
+            <button onClick={() => setShowForm(false)} className="px-3 py-2 text-[11px] text-[#94a3b8] border border-[#334155] rounded hover:bg-[#1e293b]">Cancel</button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+

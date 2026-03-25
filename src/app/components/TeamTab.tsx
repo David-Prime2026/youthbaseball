@@ -174,7 +174,7 @@ export function TeamTab() {
 
       <PracticePlanner gameStats={gameStats} performanceData={[...battingData.entries, ...pitchingData.entries, ...runningData.entries]} players={players} />
 
-      <TrainingPlan mode="team" gameStats={gameStats} performanceData={[...battingData.entries, ...pitchingData.entries, ...runningData.entries]} />
+      {viewMode === "player" && sel ? (<TrainingPlan mode="player" playerName={sel.player.name} playerId={sel.player.id} gameStats={gameStats.filter(s => s.playerId === sel.player.id)} performanceData={[...battingData.entries.filter(e => e.playerId === sel.player.id), ...pitchingData.entries.filter(e => e.playerId === sel.player.id), ...runningData.entries.filter(e => e.playerId === sel.player.id)]} />) : (<TrainingPlan mode="team" gameStats={gameStats} performanceData={[...battingData.entries, ...pitchingData.entries, ...runningData.entries]} />)}
 
       <div className="flex gap-3 items-center">
         <Label className="text-[11px] text-[#94a3b8]">View:</Label>
@@ -415,4 +415,5 @@ export function TeamTab() {
     </div>
   );
 }
+
 
