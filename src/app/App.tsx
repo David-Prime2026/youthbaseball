@@ -1,4 +1,4 @@
-﻿import { useState } from 'react';
+﻿import { useState, useEffect } from 'react';
 import { BattingTab } from './components/BattingTab';
 import { PitchingTab } from './components/PitchingTab';
 import { RunningTab } from './components/RunningTab';
@@ -15,19 +15,27 @@ import { usePlayerData } from './hooks/usePlayerData';
 import { usePerformanceData } from './hooks/usePerformanceData';
 import { useGameStats } from './hooks/useGameStats';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './components/ui/select';
+import { supabase } from '../supabaseClient';
 
-export default function App({ userRole = 'head_coach', linkedPlayerId = null }: { userRole?: string; linkedPlayerId?: string | null }) {
+export default function App({ userRole = 'head_coach', linkedPlayerId = null, userEmail = '' }: { userRole?: string; linkedPlayerId?: string | null; userEmail?: string }) {
   const [activeTab, setActiveTab] = useState('players');
   const [menuOpen, setMenuOpen] = useState(false);
   const [selectedPlayerId, setSelectedPlayerId] = useState<string>('all');
+  const [parentPlayerIds, setParentPlayerIds] = useState<string[]>([]);
   const { players, getPlayerById } = usePlayerData();
-
   const { entries: battingEntries } = usePerformanceData('batting');
   const { entries: pitchingEntries } = usePerformanceData('pitching');
   const { entries: runningEntries } = usePerformanceData('running');
   const { entries: strengthEntries } = usePerformanceData('strength');
   const { entries: exerciseEntries } = usePerformanceData('exercise');
   const { gameStats } = useGameStats();
+
+  useEffect(() => {
+    if (userRole === 'parent' && userEmail) {
+      supabase.from('parent_player_links').select('player_id').eq('parent_email', userEmail.toLowerCase())
+        .then(({ data }) => { if (data) setParentPlayerIds(data.map((d: any) => d.player_id)); });
+    }
+  }, [userRole, userEmail]);
 
   const selectedPlayer = selectedPlayerId !== 'all' ? getPlayerById(selectedPlayerId) : null;
 
@@ -49,12 +57,10 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null }: 
     if (userRole === 'parent') return ['players'].includes(tab.value);
     return true;
   });
+
   const activeTabInfo = visibleTabs.find(t => t.value === activeTab) || visibleTabs[0];
 
-  const handleTabChange = (tab: string) => {
-    setActiveTab(tab);
-    setMenuOpen(false);
-  };
+  const handleTabChange = (tab: string) => { setActiveTab(tab); setMenuOpen(false); };
 
   const getAIInsightsData = () => {
     const playerName = selectedPlayer?.name;
@@ -75,20 +81,75 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null }: 
 
   const aiInsightsData = getAIInsightsData();
 
+  // Parent portal view
+  if (userRole === 'parent') {
+    const parentPlayers = players.filter(p => parentPlayerIds.includes(p.id) || p.id === linkedPlayerId);
+    return (
+      <div className="min-h-screen bg-[#0a0f1a] text-foreground">
+        <div className="border-b border-[#1e293b] px-4 py-4" style={{ backgroundImage: 'linear-gradient(171.921deg, rgb(12, 25, 41) 0%, rgb(30, 41, 59) 100%)' }}>
+          <div className="max-w-7xl mx-auto">
+            <p className="text-[11px] font-semibold text-[#38bdf8] tracking-[1.5px] uppercase mb-1">Youth Performance Tracking System</p>
+            <h1 className="text-[18px] font-bold text-[#f1f5f9]">PREMIER SELECT</h1>
+            <p className="text-[11px] text-[#64748b]">Parent Portal</p>
+          </div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 py-6">
+          {parentPlayers.length === 0 ? (
+            <div className="text-center py-12"><p className="text-[#94a3b8]">No players linked to your account. Contact your coach.</p></div>
+          ) : (
+            <div className="space-y-6">
+              {parentPlayers.map(p => {
+                const pgs = gameStats.filter(s => s.playerId === p.id);
+                const gp = pgs.reduce((s, g) => s + (g.gamesPlayed || 0), 0);
+                const ab = pgs.reduce((s, g) => s + (g.atBats || 0), 0);
+                const h = pgs.reduce((s, g) => s + (g.hits || 0), 0);
+                const r = pgs.reduce((s, g) => s + (g.runs || 0), 0);
+                const rbi = pgs.reduce((s, g) => s + (g.rbi || 0), 0);
+                const hr = pgs.reduce((s, g) => s + (g.homeRuns || 0), 0);
+                const sb = pgs.reduce((s, g) => s + (g.stolenBases || 0), 0);
+                const avg = ab > 0 ? (h / ab).toFixed(3) : '.000';
+                const S = ({ l, v, c }: { l: string; v: any; c?: string }) => (<div className="bg-[#1e293b] p-3 rounded text-center"><div className="text-[10px] text-[#64748b] mb-1">{l}</div><div className={'text-[18px] font-semibold ' + (c || 'text-[#e2e8f0]')}>{v}</div></div>);
+                return (
+                  <div key={p.id} className="bg-[#0f172a] border border-[#1e293b] rounded-xl p-6">
+                    <div className="flex items-center gap-4 mb-5">
+                      <div className="w-16 h-16 rounded-lg bg-[#1e293b] border-2 border-[#38bdf8] overflow-hidden flex items-center justify-center">
+                        {p.photo ? <img src={p.photo} alt={p.name} className="w-full h-full object-cover" /> : <span className="text-[20px] text-[#38bdf8]">{p.name?.split(' ').map((n: string) => n[0]).join('')}</span>}
+                      </div>
+                      <div>
+                        <h2 className="text-[18px] font-semibold text-[#f1f5f9] mb-1">{p.name}</h2>
+                        <p className="text-[11px] text-[#64748b]">{p.ageGroup} - {p.positions?.join(', ') || 'No positions'}</p>
+                      </div>
+                    </div>
+                    <h3 className="text-[13px] font-semibold text-[#38bdf8] mb-3">Season Stats ({gp} games)</h3>
+                    <div className="grid grid-cols-4 gap-2 mb-3">
+                      <S l="AVG" v={avg} c="text-[#10b981]" /><S l="GP" v={gp} /><S l="AB" v={ab} /><S l="H" v={h} />
+                    </div>
+                    <div className="grid grid-cols-4 gap-2">
+                      <S l="R" v={r} /><S l="RBI" v={rbi} /><S l="HR" v={hr} /><S l="SB" v={sb} />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-[#0a0f1a] text-foreground">
       <OfflineSyncIndicator />
-
-      <div
-        className="border-b border-[#1e293b] px-4 md:px-6 py-4 md:py-8"
-        style={{ backgroundImage: 'linear-gradient(171.921deg, rgb(12, 25, 41) 0%, rgb(30, 41, 59) 100%)' }}
-      >
+      <div className="border-b border-[#1e293b] px-4 md:px-6 py-4 md:py-8" style={{ backgroundImage: 'linear-gradient(171.921deg, rgb(12, 25, 41) 0%, rgb(30, 41, 59) 100%)' }}>
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between">
             <div>
               <p className="text-[11px] font-semibold text-[#38bdf8] tracking-[1.5px] uppercase mb-1">Youth Performance Tracking System</p>
               <h1 className="text-[18px] md:text-[22px] font-bold text-[#f1f5f9] mb-1">PREMIER SELECT</h1>
               <p className="text-[11px] md:text-[12px] text-[#64748b] hidden md:block">Track baseball player KPIs, benchmarks, and goals across all performance dimensions</p>
+              <button onClick={async () => { await supabase.auth.signOut(); window.location.reload(); }} className="text-[10px] text-[#64748b] hover:text-[#ef4444] mt-1 cursor-pointer">Sign Out</button>
+              <button onClick={async () => { await supabase.auth.signOut(); window.location.reload(); }} className="text-[10px] text-[#64748b] hover:text-[#ef4444] mt-1 cursor-pointer">Sign Out</button>
+              <button onClick={() => { import('../supabaseClient').then(m => m.supabase.auth.signOut().then(() => window.location.reload())); }} className="text-[10px] text-[#64748b] hover:text-[#ef4444] mt-1">Sign Out</button>
             </div>
             <Button onClick={() => setMenuOpen(!menuOpen)} variant="outline" className="md:hidden border-[#38bdf8] text-[#38bdf8] hover:bg-[#0c4a6e]">
               {menuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -105,7 +166,7 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null }: 
               <Button onClick={() => setMenuOpen(false)} variant="ghost" size="sm"><X className="h-4 w-4" /></Button>
             </div>
             <div className="space-y-2">
-              {tabs.map(tab => (
+              {visibleTabs.map(tab => (
                 <button key={tab.value} onClick={() => handleTabChange(tab.value)} className={'w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left transition-colors ' + (activeTab === tab.value ? 'bg-[#0c4a6e] text-[#38bdf8] border border-[#38bdf8]' : 'text-[#94a3b8] hover:bg-[#1e293b]')}>
                   <tab.icon className="h-4 w-4" /><span className="text-[13px]">{tab.label}</span>
                 </button>
@@ -145,16 +206,9 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null }: 
         <div>
           {aiInsightsData && (
             <div className="mb-6">
-              <AIInsights
-                key={activeTab + "-" + selectedPlayerId}
-                performanceEntries={aiInsightsData.entries}
-                gameStats={aiInsightsData.gameStats}
-                playerName={aiInsightsData.playerName}
-                category={activeTab}
-              />
+              <AIInsights key={activeTab + '-' + selectedPlayerId} performanceEntries={aiInsightsData.entries} gameStats={aiInsightsData.gameStats} playerName={aiInsightsData.playerName} category={activeTab} />
             </div>
           )}
-
           {activeTab === 'players' && <PlayersTab />}
           {activeTab === 'team' && <TeamTab />}
           {activeTab === 'batting' && <BattingTab />}
@@ -168,10 +222,6 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null }: 
     </div>
   );
 }
-
-
-
-
 
 
 
