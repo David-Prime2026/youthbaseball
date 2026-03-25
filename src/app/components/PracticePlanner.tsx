@@ -58,8 +58,8 @@ export function PracticePlanner({ gameStats, performanceData, players }: Practic
   const colors: Record<string, any> = {
     positive: { bg: 'bg-[#064e3b]', border: 'border-[#065f46]', text: 'text-[#6ee7b7]' },
     warning: { bg: 'bg-[#7c2d12]', border: 'border-[#9a3412]', text: 'text-[#fdba74]' },
-    neutral: { bg: 'bg-[#1e293b]', border: 'border-[#334155]', text: 'text-[#e2e8f0]' },
-    goal: { bg: 'bg-[#1e3a8a]', border: 'border-[#1e40af]', text: 'text-[#93c5fd]' },
+    neutral: { bg: 'bg-[#0f172a]', border: 'border-[#334155]', text: 'text-[#e2e8f0]' },
+    goal: { bg: 'bg-[#0f172a]', border: 'border-[#f59e0b]', text: 'text-[#f59e0b]' },
   };
 
   return (
@@ -123,5 +123,6 @@ export function PracticePlanner({ gameStats, performanceData, players }: Practic
     </Card>
   );
 }
+
 
 
