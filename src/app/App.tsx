@@ -16,7 +16,7 @@ import { usePerformanceData } from './hooks/usePerformanceData';
 import { useGameStats } from './hooks/useGameStats';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './components/ui/select';
 
-export default function App() {
+export default function App({ userRole = 'head_coach', linkedPlayerId = null }: { userRole?: string; linkedPlayerId?: string | null }) {
   const [activeTab, setActiveTab] = useState('players');
   const [menuOpen, setMenuOpen] = useState(false);
   const [selectedPlayerId, setSelectedPlayerId] = useState<string>('all');
@@ -42,7 +42,14 @@ export default function App() {
     { value: 'gamestats', label: 'Game Stats', icon: FileSpreadsheet, needsPlayer: false },
   ];
 
-  const activeTabInfo = tabs.find(t => t.value === activeTab);
+  const visibleTabs = tabs.filter(tab => {
+    if (userRole === 'head_coach') return true;
+    if (userRole === 'assistant_coach') return true;
+    if (userRole === 'stats_coordinator') return ['players', 'batting', 'pitching', 'running', 'strength', 'exercise', 'gamestats'].includes(tab.value);
+    if (userRole === 'parent') return ['players'].includes(tab.value);
+    return true;
+  });
+  const activeTabInfo = visibleTabs.find(t => t.value === activeTab) || visibleTabs[0];
 
   const handleTabChange = (tab: string) => {
     setActiveTab(tab);
@@ -111,7 +118,7 @@ export default function App() {
       <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 md:py-8">
         <div className="flex flex-col md:flex-row gap-4 mb-6">
           <div className="hidden md:flex flex-wrap gap-2">
-            {tabs.map(tab => (
+            {visibleTabs.map(tab => (
               <button key={tab.value} onClick={() => setActiveTab(tab.value)} className={'flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ' + (activeTab === tab.value ? 'bg-[#0c4a6e] text-[#38bdf8] border border-[#38bdf8]' : 'text-[#94a3b8] hover:bg-[#1e293b]')}>
                 <tab.icon className="h-4 w-4" /><span className="text-[13px]">{tab.label}</span>
               </button>
@@ -161,6 +168,9 @@ export default function App() {
     </div>
   );
 }
+
+
+
 
 
 
