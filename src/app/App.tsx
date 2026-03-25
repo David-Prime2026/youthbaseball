@@ -87,10 +87,13 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null, us
     return (
       <div className="min-h-screen bg-[#0a0f1a] text-foreground">
         <div className="border-b border-[#1e293b] px-4 py-4" style={{ backgroundImage: 'linear-gradient(171.921deg, rgb(12, 25, 41) 0%, rgb(30, 41, 59) 100%)' }}>
-          <div className="max-w-7xl mx-auto">
-            <p className="text-[11px] font-semibold text-[#38bdf8] tracking-[1.5px] uppercase mb-1">Youth Performance Tracking System</p>
-            <h1 className="text-[18px] font-bold text-[#f1f5f9]">PREMIER SELECT</h1>
-            <p className="text-[11px] text-[#64748b]">Parent Portal</p>
+          <div className="max-w-7xl mx-auto flex items-center justify-between">
+            <div>
+              <p className="text-[11px] font-semibold text-[#38bdf8] tracking-[1.5px] uppercase mb-1">Youth Performance Tracking System</p>
+              <h1 className="text-[18px] font-bold text-[#f1f5f9]">PREMIER SELECT</h1>
+              <p className="text-[11px] text-[#64748b]">Parent Portal</p>
+            </div>
+            <button onClick={async () => { await supabase.auth.signOut(); window.location.reload(); }} className="text-[11px] text-[#94a3b8] hover:text-[#ef4444] px-3 py-1 border border-[#334155] rounded">Sign Out</button>
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-4 py-6">
@@ -124,8 +127,41 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null, us
                     <div className="grid grid-cols-4 gap-2 mb-3">
                       <S l="AVG" v={avg} c="text-[#10b981]" /><S l="GP" v={gp} /><S l="AB" v={ab} /><S l="H" v={h} />
                     </div>
-                    <div className="grid grid-cols-4 gap-2">
+                    <div className="grid grid-cols-4 gap-2 mb-3">
                       <S l="R" v={r} /><S l="RBI" v={rbi} /><S l="HR" v={hr} /><S l="SB" v={sb} />
+                    </div>
+                    {(() => {
+                      const bb = pgs.reduce((s: number, g: any) => s + (g.walks || 0), 0);
+                      const k = pgs.reduce((s: number, g: any) => s + (g.strikeouts || 0), 0);
+                      const d2 = pgs.reduce((s: number, g: any) => s + (g.doubles || 0), 0);
+                      const obp = (ab + bb) > 0 ? ((h + bb) / (ab + bb)).toFixed(3) : ".000";
+                      const slg = ab > 0 ? ((h + d2 + (hr * 3)) / ab).toFixed(3) : ".000";
+                      const ops = (parseFloat(obp) + parseFloat(slg)).toFixed(3);
+                      return (
+                        <div className="grid grid-cols-4 gap-2 mb-4">
+                          <S l="OBP" v={obp} c="text-[#38bdf8]" /><S l="SLG" v={slg} c="text-[#f59e0b]" /><S l="OPS" v={ops} c="text-[#8b5cf6]" /><S l="K" v={k} c="text-[#ef4444]" />
+                        </div>
+                      );
+                    })()}
+                    {(() => {
+                      const ip = pgs.reduce((s: number, g: any) => s + (g.inningsPitched || 0), 0);
+                      if (ip === 0) return null;
+                      const era = pgs.reduce((s: number, g: any) => s + (g.era || 0), 0);
+                      const kp = pgs.reduce((s: number, g: any) => s + (g.strikeoutsPitching || 0), 0);
+                      const w = pgs.reduce((s: number, g: any) => s + (g.wins || 0), 0);
+                      const l = pgs.reduce((s: number, g: any) => s + (g.losses || 0), 0);
+                      const whip = pgs.length > 0 ? pgs[0].whip : 0;
+                      return (
+                        <>
+                          <h3 className="text-[13px] font-semibold text-[#38bdf8] mb-3 mt-4">Pitching</h3>
+                          <div className="grid grid-cols-3 md:grid-cols-6 gap-2 mb-4">
+                            <S l="IP" v={ip.toFixed(1)} /><S l="ERA" v={era > 0 ? era.toFixed(2) : "0.00"} c="text-[#10b981]" /><S l="WHIP" v={whip ? Number(whip).toFixed(2) : "--"} c="text-[#38bdf8]" /><S l="K" v={kp} /><S l="W-L" v={w + "-" + l} />
+                          </div>
+                        </>
+                      );
+                    })()}
+                    <div className="mt-4 pt-4 border-t border-[#1e293b]">
+                      <ParentAIInsights playerId={p.id} playerName={p.name} gameStats={pgs} />
                     </div>
                   </div>
                 );
@@ -227,3 +263,54 @@ export default function App({ userRole = 'head_coach', linkedPlayerId = null, us
 
 
 
+
+
+
+function ParentAIInsights({ playerId, playerName, gameStats: pgs }: { playerId: string; playerName: string; gameStats: any[] }) {
+  const [insights, setInsights] = useState<any[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [generated, setGenerated] = useState(false);
+  const [collapsed, setCollapsed] = useState(false);
+
+  const generate = async () => {
+    setLoading(true);
+    try {
+      const { data, error } = await supabase.functions.invoke('analyze-performance', {
+        body: { performanceData: [], gameStats: pgs.slice(0, 5), playerName, category: 'Parent Report' },
+      });
+      if (error) throw error;
+      if (data?.insights) setInsights(data.insights);
+    } catch (err) {
+      setInsights([{ type: 'neutral', title: 'Unavailable', description: 'Could not generate insights.' }]);
+    } finally { setLoading(false); setGenerated(true); setCollapsed(false); }
+  };
+
+  const colors: Record<string, any> = {
+    positive: { bg: 'bg-[#064e3b]', border: 'border-[#065f46]', text: 'text-[#6ee7b7]' },
+    warning: { bg: 'bg-[#7c2d12]', border: 'border-[#9a3412]', text: 'text-[#fdba74]' },
+    neutral: { bg: 'bg-[#1e293b]', border: 'border-[#334155]', text: 'text-[#e2e8f0]' },
+    goal: { bg: 'bg-[#1e3a8a]', border: 'border-[#1e40af]', text: 'text-[#93c5fd]' },
+  };
+
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-3">
+        <button onClick={() => generated && setCollapsed(!collapsed)} className="flex items-center gap-2">
+          <h3 className="text-[13px] font-semibold text-[#10b981]">Development Insights</h3>
+          {generated && <span className="text-[#64748b] text-[10px]">{collapsed ? '(show)' : '(hide)'}</span>}
+        </button>
+        <button onClick={generate} disabled={loading} className="text-[11px] bg-[#10b981] text-white px-3 py-1 rounded hover:bg-[#059669] disabled:opacity-50">
+          {loading ? 'Analyzing...' : generated ? 'Refresh' : 'Get Insights'}
+        </button>
+      </div>
+      {!collapsed && generated && !loading && (
+        <div className="space-y-2">{insights.map((ins: any, i: number) => {
+          const s = colors[ins.type] || colors.neutral;
+          return <div key={i} className={s.bg + ' ' + s.border + ' border p-3 rounded-lg'}><h4 className={'text-[12px] font-medium ' + s.text + ' mb-1'}>{ins.title}</h4><p className="text-[11px] text-[#94a3b8]">{ins.description}</p></div>;
+        })}</div>
+      )}
+      {loading && <div className="text-center py-3"><p className="text-[11px] text-[#94a3b8]">Analyzing {playerName}'s performance...</p></div>}
+      {!generated && !loading && <p className="text-[11px] text-[#64748b]">Click "Get Insights" for AI-powered development feedback on your player.</p>}
+    </div>
+  );
+}
