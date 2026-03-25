@@ -32,6 +32,11 @@ export function PracticePlanner({ gameStats, performanceData, players }: Practic
     setCoachNotes('');
     setEffortRating('');
     try {
+      if (gameStats.length === 0) {
+        setPlan([{ type: 'warning', title: 'No Data Available', description: 'Game stats have not loaded yet. Please wait a moment and try again, or make sure you have imported game stats on the Game Stats tab.' }]);
+        setLoading(false);
+        return;
+      }
       const pitchers = gameStats.filter(s => s.inningsPitched && s.inningsPitched > 0);
       const topBatters = [...gameStats].sort((a, b) => (b.average || 0) - (a.average || 0)).slice(0, 5);
       const stealCandidates = gameStats.filter(s => s.stolenBases && s.stolenBases > 2);
@@ -184,3 +189,4 @@ export function PracticePlanner({ gameStats, performanceData, players }: Practic
     </Card>
   );
 }
+
