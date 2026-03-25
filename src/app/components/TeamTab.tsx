@@ -9,6 +9,7 @@ import { useGameStats } from '../hooks/useGameStats';
 import { usePerformanceData } from '../hooks/usePerformanceData';
 import { Users, TrendingUp, Target, Award, Zap, BarChart3, Activity, Trophy, ChevronDown, ChevronUp } from 'lucide-react';
 import { TrainingPlan } from './TrainingPlan';
+import { PracticePlanner } from './PracticePlanner';
 
 export function TeamTab() {
   const { players } = usePlayerData();
@@ -170,6 +171,8 @@ export function TeamTab() {
           </div>
         </Card>
       )}
+
+      <PracticePlanner gameStats={gameStats} performanceData={[...battingData.entries, ...pitchingData.entries, ...runningData.entries]} players={players} />
 
       <TrainingPlan mode="team" gameStats={gameStats} performanceData={[...battingData.entries, ...pitchingData.entries, ...runningData.entries]} />
 
@@ -412,3 +415,4 @@ export function TeamTab() {
     </div>
   );
 }
+
