@@ -15,6 +15,8 @@ export function AuthGate({ children, onRole }: AuthGateProps) {
   const [role, setRole] = useState<string | null>(null);
   const [noAccess, setNoAccess] = useState(false);
   const [isResetMode, setIsResetMode] = useState(false);
+  const [isSignUpMode, setIsSignUpMode] = useState(false);
+  const [signUpSuccess, setSignUpSuccess] = useState(false);
   const [resetSent, setResetSent] = useState(false);
 
   useEffect(() => {
@@ -120,7 +122,24 @@ export function AuthGate({ children, onRole }: AuthGateProps) {
         <p style={{ fontSize: '11px', fontWeight: 600, color: '#38bdf8', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '8px' }}>Youth Performance Tracking System</p>
         <h1 style={{ fontSize: '22px', fontWeight: 'bold', color: '#f1f5f9', marginBottom: '8px' }}>PREMIER SELECT</h1>
         <p style={{ fontSize: '11px', color: '#64748b', marginBottom: '32px' }}>Built by PRIME-TIME Systems</p>
-        {isResetMode ? (
+        {isSignUpMode ? (
+          signUpSuccess ? (
+            <div>
+              <p style={{ fontSize: '14px', color: '#10b981', marginBottom: '16px' }}>Account created!</p>
+              <p style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '16px' }}>You can now sign in with your email and password.</p>
+              <button onClick={() => { setIsSignUpMode(false); setSignUpSuccess(false); }} style={{ width: '100%', padding: '12px', background: '#38bdf8', color: '#0a0f1a', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 'bold', cursor: 'pointer' }}>Go to Login</button>
+            </div>
+          ) : (
+            <form onSubmit={async (e) => { e.preventDefault(); setSending(true); setError(''); const { error: err } = await supabase.auth.signUp({ email, password }); if (err) setError(err.message); else setSignUpSuccess(true); setSending(false); }}>
+              <p style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '16px', textAlign: 'left' }}>Create your account. You must be pre-authorized by your coach.</p>
+              <input type='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email address' required style={{ width: '100%', padding: '12px 16px', background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#e2e8f0', fontSize: '14px', marginBottom: '12px', outline: 'none', boxSizing: 'border-box' }} />
+              <input type='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Choose a password' required style={{ width: '100%', padding: '12px 16px', background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#e2e8f0', fontSize: '14px', marginBottom: '16px', outline: 'none', boxSizing: 'border-box' }} />
+              {error && <p style={{ color: '#f87171', fontSize: '12px', marginBottom: '12px' }}>{error}</p>}
+              <button type='submit' disabled={sending} style={{ width: '100%', padding: '12px', background: '#10b981', color: 'white', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 'bold', cursor: sending ? 'not-allowed' : 'pointer', marginBottom: '12px' }}>{sending ? 'Creating...' : 'Create Account'}</button>
+              <button type='button' onClick={() => setIsSignUpMode(false)} style={{ width: '100%', padding: '8px', background: 'transparent', color: '#94a3b8', border: '1px solid #334155', borderRadius: '8px', fontSize: '12px', cursor: 'pointer' }}>Back to Login</button>
+            </form>
+          )
+        ) : isResetMode ? (
           resetSent ? (
             <div>
               <p style={{ fontSize: '14px', color: '#10b981', marginBottom: '16px' }}>Password reset email sent!</p>
@@ -143,6 +162,7 @@ export function AuthGate({ children, onRole }: AuthGateProps) {
             {error && <p style={{ color: '#f87171', fontSize: '12px', marginBottom: '12px' }}>{error}</p>}
             <button type="submit" disabled={sending} style={{ width: '100%', padding: '12px', background: '#38bdf8', color: '#0a0f1a', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 'bold', cursor: sending ? 'not-allowed' : 'pointer', marginBottom: '12px' }}>{sending ? 'Signing in...' : 'Sign In'}</button>
             <button type="button" onClick={() => setIsResetMode(true)} style={{ width: '100%', padding: '8px', background: 'transparent', color: '#64748b', border: 'none', fontSize: '12px', cursor: 'pointer' }}>Forgot password?</button>
+            <button type="button" onClick={() => setIsSignUpMode(true)} style={{ width: '100%', padding: '8px', background: 'transparent', color: '#38bdf8', border: 'none', fontSize: '12px', cursor: 'pointer', marginTop: '4px' }}>First time? Create Account</button>
           </form>
         )}
       </div>
@@ -152,3 +172,5 @@ export function AuthGate({ children, onRole }: AuthGateProps) {
   if (role) return <>{children}</>;
   return <div style={{ minHeight: '100vh', background: '#0a0f1a', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><p style={{ color: '#94a3b8' }}>Loading...</p></div>;
 }
+
+
