@@ -17,6 +17,10 @@ export function AuthGate({ children, onRole }: AuthGateProps) {
   const [isResetMode, setIsResetMode] = useState(false);
   const [isSignUpMode, setIsSignUpMode] = useState(false);
   const [signUpSuccess, setSignUpSuccess] = useState(false);
+  const [signUpRole, setSignUpRole] = useState('parent');
+  const [signUpName, setSignUpName] = useState('');
+  const [signUpPlayerId, setSignUpPlayerId] = useState('');
+  const [allPlayers, setAllPlayers] = useState<any[]>([]);
   const [resetSent, setResetSent] = useState(false);
 
   useEffect(() => {
@@ -133,9 +137,31 @@ export function AuthGate({ children, onRole }: AuthGateProps) {
               <button onClick={() => { setIsSignUpMode(false); setSignUpSuccess(false); }} style={{ width: '100%', padding: '12px', background: '#38bdf8', color: '#0a0f1a', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 'bold', cursor: 'pointer' }}>Go to Login</button>
             </div>
           ) : (
-            <form onSubmit={async (e) => { e.preventDefault(); setSending(true); setError(''); const { error: err } = await supabase.auth.signUp({ email, password }); if (err) setError(err.message); else setSignUpSuccess(true); setSending(false); }}>
-              <p style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '16px', textAlign: 'left' }}>Create your account. You must be pre-authorized by your coach.</p>
+            <form onSubmit={async (e) => { e.preventDefault(); setSending(true); setError('');
+              const { error: err } = await supabase.auth.signUp({ email, password });
+              if (err) { setError(err.message); setSending(false); return; }
+              const { data: existingRole } = await supabase.from('user_roles').select('id').eq('email', email.toLowerCase()).single();
+              if (!existingRole) {
+                await supabase.from('user_roles').insert([{ email: email.toLowerCase(), role: signUpRole === 'fan' ? 'parent' : 'parent', display_name: signUpName || email.split('@')[0] }]);
+              }
+              if (signUpRole !== 'fan' && signUpPlayerId) {
+                await supabase.from('parent_player_links').insert([{ parent_email: email.toLowerCase(), player_id: signUpPlayerId, relationship: signUpRole }]).select();
+              }
+              setSignUpSuccess(true); setSending(false); }}>
+              <p style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '16px', textAlign: 'left' }}>Create your account to view player stats.</p>
+              <input type='text' value={signUpName} onChange={(e) => setSignUpName(e.target.value)} placeholder='Your name' required style={{ width: '100%', padding: '12px 16px', background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#e2e8f0', fontSize: '14px', marginBottom: '12px', outline: 'none', boxSizing: 'border-box' }} />
               <input type='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email address' required style={{ width: '100%', padding: '12px 16px', background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#e2e8f0', fontSize: '14px', marginBottom: '12px', outline: 'none', boxSizing: 'border-box' }} />
+              <select value={signUpRole} onChange={(e) => { setSignUpRole(e.target.value); if (e.target.value === 'fan') setSignUpPlayerId(''); }} onFocus={loadPlayers} style={{ width: '100%', padding: '12px 16px', background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#e2e8f0', fontSize: '14px', marginBottom: '12px', outline: 'none', boxSizing: 'border-box' }}>
+                <option value='parent'>Parent / Guardian</option>
+                <option value='family'>Family Member</option>
+                <option value='fan'>Fan</option>
+              </select>
+              {signUpRole !== 'fan' && (
+                <select value={signUpPlayerId} onChange={(e) => setSignUpPlayerId(e.target.value)} onFocus={loadPlayers} required style={{ width: '100%', padding: '12px 16px', background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#e2e8f0', fontSize: '14px', marginBottom: '12px', outline: 'none', boxSizing: 'border-box' }}>
+                  <option value=''>Select your player...</option>
+                  {allPlayers.map((p: any) => <option key={p.id} value={p.id}>{p.name}</option>)}
+                </select>
+              )}
               <input type='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Choose a password' required style={{ width: '100%', padding: '12px 16px', background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#e2e8f0', fontSize: '14px', marginBottom: '16px', outline: 'none', boxSizing: 'border-box' }} />
               {error && <p style={{ color: '#f87171', fontSize: '12px', marginBottom: '12px' }}>{error}</p>}
               <button type='submit' disabled={sending} style={{ width: '100%', padding: '12px', background: '#10b981', color: 'white', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 'bold', cursor: sending ? 'not-allowed' : 'pointer', marginBottom: '12px' }}>{sending ? 'Creating...' : 'Create Account'}</button>
@@ -175,6 +201,9 @@ export function AuthGate({ children, onRole }: AuthGateProps) {
   if (role) return <>{children}</>;
   return <div style={{ minHeight: '100vh', background: '#0a0f1a', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><p style={{ color: '#94a3b8' }}>Loading...</p></div>;
 }
+
+
+
 
 
 
