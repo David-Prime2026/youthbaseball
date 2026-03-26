@@ -64,7 +64,7 @@ export function usePerformanceData(category: string) {
     const { data, error } = await supabase
       .from('performance_entries')
       .insert([{
-        player_id: entry.playerId || null,
+        player_id: entry.playerId && entry.playerId.includes('-') && entry.playerId.length > 30 ? entry.playerId : null,
         player_name: entry.playerName,
         age_group: entry.ageGroup || '12U',
         category: entry.category || category,
@@ -198,3 +198,4 @@ export function usePerformanceData(category: string) {
     refreshEntries: fetchEntries,
   };
 }
+
