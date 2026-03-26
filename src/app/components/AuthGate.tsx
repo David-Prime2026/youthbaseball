@@ -32,9 +32,12 @@ export function AuthGate({ children, onRole }: AuthGateProps) {
     return () => subscription.unsubscribe();
   }, []);
 
-  const checkRole = async (userEmail: string) => {
+  const checkRole = async (userEmail: string, retries = 0) => {
     const { data: roleData } = await supabase.from('user_roles').select('*').eq('email', userEmail.toLowerCase()).single();
-    if (!roleData) { setNoAccess(true); return; }
+    if (!roleData) {
+      if (retries < 3) { await new Promise(r => setTimeout(r, 1500)); return checkRole(userEmail, retries + 1); }
+      setNoAccess(true); return;
+    }
     const { data: agreement } = await supabase.from('user_agreements').select('*').eq('email', userEmail.toLowerCase()).limit(1);
     if (!agreement || agreement.length === 0) { setNeedsAgreement(true); setRole(roleData.role); return; }
     setRole(roleData.role);
@@ -172,5 +175,6 @@ export function AuthGate({ children, onRole }: AuthGateProps) {
   if (role) return <>{children}</>;
   return <div style={{ minHeight: '100vh', background: '#0a0f1a', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><p style={{ color: '#94a3b8' }}>Loading...</p></div>;
 }
+
 
 
