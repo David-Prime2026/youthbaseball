@@ -161,12 +161,7 @@ export function PlayerDetailView({ player, onClose, onEdit }: PlayerDetailViewPr
         {/* Training Averages */}
         <Card className="bg-[#1e293b] border-[#334155] p-4 mb-4">
           <h3 className="text-[12px] font-medium text-[#38bdf8] mb-3">Training Performance</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <SV label="Exit Velocity" value={exitVeloAvg > 0 ? exitVeloAvg.toFixed(1) + ' mph' : '--'} color="text-[#10b981]" />
-            <SV label="Bat Speed" value={batSpeedAvg > 0 ? batSpeedAvg.toFixed(1) + ' mph' : '--'} color="text-[#38bdf8]" />
-            <SV label="60-Yard Dash" value={runAvg > 0 ? runAvg.toFixed(2) + ' sec' : '--'} color="text-[#8b5cf6]" />
-            <SV label="Pitch Velocity" value={pitchVeloAvg > 0 ? pitchVeloAvg.toFixed(1) + ' mph' : '--'} color="text-[#f59e0b]" />
-          </div>
+          <TrainingMetricsGrid battingData={battingData} pitchingData={pitchingData} runningData={runningData} strengthData={strengthData} />
         </Card>
 
         {/* Season Stats */}
@@ -282,3 +277,37 @@ function DrillView({ data, category }: { data: any[]; category: string }) {
   );
 }
 
+
+
+
+function TrainingMetricsGrid({ battingData, pitchingData, runningData, strengthData }: { battingData: any[]; pitchingData: any[]; runningData: any[]; strengthData: any[] }) {
+  const allData = [...battingData, ...pitchingData, ...runningData, ...strengthData];
+  if (allData.length === 0) return <p className="text-[11px] text-[#64748b] text-center py-3">No training data yet. Enter drills on the Batting, Pitching, or Running tabs.</p>;
+
+  const metrics: Record<string, { reps: number[]; category: string }> = {};
+  allData.forEach((entry: any) => {
+    const key = entry.metricType || entry.drill || 'Other';
+    if (!metrics[key]) metrics[key] = { reps: [], category: entry.category || '' };
+    if (entry.reps && Array.isArray(entry.reps)) metrics[key].reps.push(...entry.reps.filter((r: number) => r > 0));
+  });
+
+  const colors = ['text-[#10b981]', 'text-[#38bdf8]', 'text-[#f59e0b]', 'text-[#8b5cf6]', 'text-[#ef4444]', 'text-[#06b6d4]', 'text-[#f97316]', 'text-[#a78bfa]'];
+
+  return (
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+      {Object.entries(metrics).map(([metric, data], i) => {
+        const avg = data.reps.length > 0 ? data.reps.reduce((a, b) => a + b, 0) / data.reps.length : 0;
+        const pr = data.reps.length > 0 ? Math.max(...data.reps) : 0;
+        const unit = metric.includes('Velocity') || metric.includes('Speed') ? ' mph' : metric.includes('Dash') || metric.includes('First') || metric.includes('Home') ? 's' : '';
+        const color = colors[i % colors.length];
+        return (
+          <div key={metric} className="bg-[#0f172a] p-3 rounded text-center">
+            <div className="text-[10px] text-[#64748b] mb-1">{metric}</div>
+            <div className={'text-[18px] font-semibold ' + color}>{avg > 0 ? avg.toFixed(1) + unit : '--'}</div>
+            <div className="text-[9px] text-[#64748b] mt-1">PR: {pr > 0 ? pr.toFixed(1) + unit : '--'} | {data.reps.length} reps</div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
