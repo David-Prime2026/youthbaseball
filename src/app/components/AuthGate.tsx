@@ -36,6 +36,7 @@ export function AuthGate({ children, onRole }: AuthGateProps) {
     return () => subscription.unsubscribe();
   }, []);
 
+  const loadPlayers = async () => { const { data } = await supabase.from('players').select('id, name').order('name'); if (data) setAllPlayers(data); };
   const checkRole = async (userEmail: string, retries = 0) => {
     const { data: roleData } = await supabase.from('user_roles').select('*').eq('email', userEmail.toLowerCase()).single();
     if (!roleData) {
@@ -201,6 +202,7 @@ export function AuthGate({ children, onRole }: AuthGateProps) {
   if (role) return <>{children}</>;
   return <div style={{ minHeight: '100vh', background: '#0a0f1a', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><p style={{ color: '#94a3b8' }}>Loading...</p></div>;
 }
+
 
 
 
