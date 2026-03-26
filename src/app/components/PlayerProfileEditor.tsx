@@ -184,7 +184,6 @@ export function PlayerProfileEditor({ player, onSave, onClose, isIncomplete }: P
                   ref={fileInputRef}
                   type="file"
                   accept="image/*"
-                  capture="environment"
                   onChange={handlePhotoUpload}
                   className="hidden"
                 />
@@ -379,4 +378,5 @@ export function PlayerProfileEditor({ player, onSave, onClose, isIncomplete }: P
     </div>
   );
 }
+
 
