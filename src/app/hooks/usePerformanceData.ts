@@ -61,10 +61,17 @@ export function usePerformanceData(category: string) {
   };
 
   const addEntry = async (entry: Omit<PerformanceEntry, 'id'>) => {
+    let resolvedPlayerId = null;
+    if (entry.playerId && entry.playerId.length > 30) {
+      resolvedPlayerId = entry.playerId;
+    } else if (entry.playerName) {
+      const { data: pMatch } = await supabase.from('players').select('id').eq('name', entry.playerName).single();
+      if (pMatch) resolvedPlayerId = pMatch.id;
+    }
     const { data, error } = await supabase
       .from('performance_entries')
       .insert([{
-        player_id: entry.playerId && entry.playerId.includes('-') && entry.playerId.length > 30 ? entry.playerId : null,
+        player_id: resolvedPlayerId,
         player_name: entry.playerName,
         age_group: entry.ageGroup || '12U',
         category: entry.category || category,
@@ -198,4 +205,5 @@ export function usePerformanceData(category: string) {
     refreshEntries: fetchEntries,
   };
 }
+
 

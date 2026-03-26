@@ -258,7 +258,7 @@ function GameStatsView({ stats, SV }: { stats: any[]; SV: any }) {
 
 function DrillView({ data, category }: { data: any[]; category: string }) {
   if (data.length === 0) return <Card className="bg-[#1e293b] border-[#334155] p-8 text-center"><TrendingUp className="h-12 w-12 text-[#334155] mx-auto mb-3" /><p className="text-[12px] text-[#64748b]">No {category.toLowerCase()} training data yet</p></Card>;
-  const groups = data.reduce((acc: any, item: any) => { if (!acc[item.drill]) acc[item.drill] = []; acc[item.drill].push(item); return acc; }, {} as Record<string, any[]>);
+  const groups = data.reduce((acc: any, item: any) => { const key = item.metricType || item.drill || 'Other'; if (!acc[key]) acc[key] = []; acc[key].push(item); return acc; }, {} as Record<string, any[]>);
   return (
     <div className="space-y-4">
       {Object.entries(groups).map(([drill, drillData]: [string, any]) => (
@@ -281,3 +281,4 @@ function DrillView({ data, category }: { data: any[]; category: string }) {
     </div>
   );
 }
+
